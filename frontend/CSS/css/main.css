@@ -11866,7 +11866,7 @@ nav .container-fluid, nav .container-sm, nav .container-md, nav .container-lg, n
 }
 
 nav.navbar {
-  padding-top: 0;
+  padding: 0;
 }
 nav.navbar .navbar-nav {
   padding: 1rem;
