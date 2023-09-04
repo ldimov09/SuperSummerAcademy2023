@@ -1,0 +1,27 @@
+{
+    "remotePath": "./",
+    "host": "ftp.obuvkitevi.com",
+    "username": "saturday@saturday.skostadinov.com",
+    "password": "}-PBZvCyb-Rs",
+    "port": 21,
+    "secure": false,
+    "protocol": "ftp",
+    "uploadOnSave": false,
+    "passive": false,
+    "debug": false,
+    "privateKeyPath": null,
+    "passphrase": null,
+    "agent": null,
+    "allow": [],
+    "ignore": [
+        "\\.vscode",
+        "\\.git",
+        "\\.DS_Store"
+    ],
+    "generatedFiles": {
+        "extensionsToInclude": [
+            ""
+        ],
+        "path": ""
+    }
+}
