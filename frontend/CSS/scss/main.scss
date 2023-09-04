@@ -1,6 +1,50 @@
 @import 'variables';
 @import "../../node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+@import url('/font-awesome-4.6.3/css/font-awesome.min.css');
 
-h1 {
-	color: red;
+
+body {
+	margin: 0;
+	padding: 0
 }
+
+nav {
+	position: absolute;
+	width: 100%;
+
+	.container-fluid {
+		background-color: $primary;
+	}
+}
+
+nav.navbar {
+	padding-top: 0;
+	.navbar-nav {
+		padding: 1rem;
+	}
+	a.nav-link {
+		color: $secondary;
+		font-family: 'Merienda', cursive;
+		font-size: 18px;
+	}
+}
+
+footer {
+	background-color: $primary;
+	.container {
+		width: 100% !important;
+		h3 {
+			color: $secondary;
+			font-family: 'Merienda', cursive;
+			font-size: 20px;
+			text-align: center;
+		}
+		button {
+			background-color: $primary;
+			border: none;
+		}
+	}
+}
+
+

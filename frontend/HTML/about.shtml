@@ -1,1 +1,50 @@
-<!--5-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link rel="shortcut icon" href="images/panda.svg">-->
+    <link rel="stylesheet" href="../CSS/css/about.css">
+    <title>Document</title>
+</head>
+<!--#include file="./navbar.shtml"-->
+<div class="hero-image">
+    <div class="wrapper">
+        <h2>
+            family ice-cream workshop<br>Mmmmm....
+        </h2>
+    </div>
+</div>
+
+<div class="backstory-field">
+    <div class="backstory-buble">
+        <div class="backstory-text">
+            <h3>
+                About us!
+            </h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </div>
+        <img class="backstory-image" src="../images/test_banner.jpg" alt="ice-cream">
+    </div>
+</div>
+
+<div class="featured">
+    <div class="card">
+        <img src="../images/team.jpg
+            " alt="team">
+
+        <div class="card-text">
+            <h3>our team</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+    </div>
+
+</div>
+
+<!--#include file="./footer.shtml"-->
