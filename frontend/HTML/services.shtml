@@ -1,13 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<!--<link rel="shortcut icon" href="images/panda.svg">-->
-		<link rel="stylesheet" href="../CSS/css/services.css">
-		<title>Document</title>
-	</head>
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--<link rel="shortcut icon" href="images/panda.svg">-->
+	<link rel="stylesheet" href="../CSS/css/services.css">
+	<title>Document</title>
+</head>
 <!--#include file="./navbar.shtml"-->
-<h1>vasii3iiii USLUGI</h1>
+<main class="content-holder">
+	<section class="hero-section">
+		<article class="hero-title">
+			<h1>Услуги</h1>
+		</article>
+	</section>
+	<section class="content1-section">
+		<article class="text-wrapper">
+			<h2>Нашите услуги</h2>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium nemo non minima voluptates minus a,
+				sint mollitia eaque beatae labore veniam perferendis provident harum maiores asperiores recusandae
+				officia facere !Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium nemo non minima
+				voluptates minus a,
+				sint mollitia eaque beatae labore veniam perferendis provident harum maiores asperiores recusandae
+				officia facere !Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium nemo non minima
+				voluptates minus a,
+				sint mollitia eaque beatae labore veniam perferendis provident harum maiores asperiores recusandae
+				officia facere !
+			</p>
+		</article>
+		<article class="image">
+
+		</article>
+	</section>
+	<h2 style="text-align: center;">Вкусове</h2>
+	<section class="card-holder">
+		<article class="flavour-card">
+			<img src="../images/icecream2-home-pic1.png" width="200" height="200">
+			<div class="card-content">
+				<h3>Flavour 1</h3>
+				<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit quasi mollitia expedita at
+					delectus
+					qui nesciunt totam placeat nisi perferendis. Esse ducimus impedit aliquam eos dolore, est sunt ex
+					numquam.
+				</p>
+			</div>
+		</article>
+		<article class="flavour-card">
+			<img src="../images/icecream2-home-pic2.png" width="200" height="200">
+			<div class="card-content">
+				<h3>Flavour 2</h3>
+				<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit quasi mollitia expedita at
+					delectus
+					qui nesciunt totam placeat nisi perferendis. Esse ducimus impedit aliquam eos dolore, est sunt ex
+					numquam.
+				</p>
+			</div>
+		</article>
+		<article class="flavour-card">
+			<img src="../images/icecream2-home-pic3.png" width="200" height="200">
+			<div class="card-content">
+				<h3>Flavour 3</h3>
+				<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit quasi mollitia expedita at
+					delectus
+					qui nesciunt totam placeat nisi perferendis. Esse ducimus impedit aliquam eos dolore, est sunt ex
+					numquam.
+				</p>
+			</div>
+		</article>
+	</section>
+
+</main>
 <!--#include file="./footer.shtml"-->
