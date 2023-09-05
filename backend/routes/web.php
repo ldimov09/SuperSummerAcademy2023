@@ -18,6 +18,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/schedule', [AppointmentController::class, 'getAll']);
+Route::get('/schedule', [AppointmentController::class, 'getAllFreeHours']);
 
 Route::post('/schedule', [AppointmentController::class, 'create']);
