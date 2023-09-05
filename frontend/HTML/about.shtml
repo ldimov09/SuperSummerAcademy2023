@@ -10,15 +10,15 @@
     <title>Document</title>
 </head>
 <!--#include file="./navbar.shtml"-->
-<div class="hero-image">
+<section id="hero">
     <div class="wrapper">
         <h2>
             family ice-cream workshop<br>Mmmmm....
         </h2>
     </div>
-</div>
+</section>
 
-<div class="backstory-field">
+<section id="backstory-field">
     <div class="backstory-buble">
         <div class="backstory-text">
             <h3>
@@ -31,7 +31,7 @@
         </div>
         <img class="backstory-image" src="../images/test_banner.jpg" alt="ice-cream">
     </div>
-</div>
+</section>
 
 <div class="featured">
     <div class="card">

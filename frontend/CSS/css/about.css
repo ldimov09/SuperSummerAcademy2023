@@ -11903,40 +11903,50 @@ footer .container button {
   border: none;
 }
 
-.wrapper {
-  margin: 0 auto;
-  padding: 0 1rem;
+#hero {
+  position: relative;
+  width: 100vw;
+  height: 60vh;
+}
+#hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-}
-
-.hero-image {
-  height: 35rem;
-  width: auto;
-  margin: 0;
-  padding: 10rem;
-  display: flex;
-  align-items: center;
-  justify-content: left;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
+  height: 100%;
+  background-image: url("../../images/about-banner.jpg");
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: darken;
   background-size: cover;
-  background-color: red;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: -1;
 }
 
-.backstory-field {
+.wrapper {
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-align: left;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+}
+.wrapper h2, .wrapper .h2 {
+  font-size: 3em;
+}
+
+#backstory-field {
   display: flex;
   justify-content: center;
   align-items: center;
-  align-self: center;
-  border-radius: 3rem;
-  padding-top: 5rem;
-  margin: auto;
-  width: 100%;
+  flex-direction: column;
 }
 
 .backstory-buble {
-  height: 25rem;
+  height: 40vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11948,13 +11958,7 @@ footer .container button {
 }
 
 .backstory-text {
-  width: 40%;
-  margin-right: 10rem;
-  font-size: 1.1rem;
-  text-align: justify;
-}
-.backstory-text h3, .backstory-text .h3 {
-  text-align: right;
+  text-align: left;
 }
 
 .featured {
