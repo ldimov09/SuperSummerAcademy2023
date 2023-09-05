@@ -5,7 +5,6 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 @import url("https://fonts.googleapis.com/css2?family=Merienda&display=swap");
-@import url("/font-awesome-4.6.3/css/font-awesome.min.css");
 :root,
 [data-bs-theme=light] {
   --bs-blue: #0d6efd;
@@ -11904,6 +11903,89 @@ footer .container h3, footer .container .h3, footer .container h2, footer .conta
 footer .container button {
   background-color: #FAB9D1;
   border: none;
+}
+
+body {
+  background-color: #dedede;
+}
+
+section.hero-wrapper {
+  position: relative;
+  width: 100% !important;
+  height: 600px;
+  margin-top: 54px;
+}
+
+.shit {
+  background-color: black !important;
+  width: 100vw;
+  height: 100vh !important;
+}
+
+section.hero-wrapper > section {
+  width: 100%;
+  height: 30%;
+}
+
+.accent-row {
+  background-color: #FAB9D1;
+  height: 40% !important;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+#sml-circle {
+  position: absolute;
+  z-index: 2;
+  top: -25px;
+  right: 310px;
+  width: 250px;
+  height: 250px;
+  border-radius: 125px;
+  border: 10px solid #fff;
+  background-color: #FAB9D1;
+  background-image: url("../../images/COWW.png");
+  background-size: cover;
+}
+
+#big-circle {
+  position: absolute;
+  z-index: 2;
+  right: 300px;
+  top: 250px;
+  width: 350px;
+  height: 350px;
+  border-radius: 175px;
+  background-color: #FAB9D1;
+  border: 10px solid #fff;
+  background-image: url("../../images/index-plate-2.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+#mid-circle {
+  position: absolute;
+  z-index: 1;
+  right: 100px;
+  top: 100px;
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  background-color: #FAB9D1;
+  border: 10px solid #fff;
+  background-size: cover;
+  background-position: center center;
+}
+
+.hero-go-to-action {
+  display: inline-block;
+  margin-left: 60px;
+  margin-top: 50px;
+  padding: 10px 15px;
+  background-color: #D51744;
+  color: #fff;
+  border-radius: 7px;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=index.css.map */

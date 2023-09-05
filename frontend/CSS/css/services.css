@@ -5,9 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 @import url("https://fonts.googleapis.com/css2?family=Merienda&display=swap");
-@import url("/font-awesome-4.6.3/css/font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css2?family=Merienda&display=swap");
-@import url("/font-awesome-4.6.3/css/font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css2?family=Merienda:wght@800&family=Roboto:wght@300&display=swap");
 :root,
 [data-bs-theme=light] {
