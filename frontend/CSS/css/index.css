@@ -11862,7 +11862,10 @@ nav {
   display: flex;
 }
 nav .container-fluid, nav .container-sm, nav .container-md, nav .container-lg, nav .container-xl, nav .container-xxl {
-  background-color: #FAB9D1;
+  background-color: #FCDCE8;
+  -webkit-box-shadow: 0px 5px 13px 0px rgba(0, 0, 0, 0.26);
+  -moz-box-shadow: 0px 5px 13px 0px rgba(0, 0, 0, 0.26);
+  box-shadow: 0px 5px 13px 0px rgba(0, 0, 0, 0.26);
 }
 nav a {
   color: #D51744 !important;

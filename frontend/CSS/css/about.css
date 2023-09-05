@@ -11862,7 +11862,10 @@ nav {
   display: flex;
 }
 nav .container-fluid, nav .container-sm, nav .container-md, nav .container-lg, nav .container-xl, nav .container-xxl {
-  background-color: #FAB9D1;
+  background-color: #FCDCE8;
+  -webkit-box-shadow: 0px 5px 13px 0px rgba(0, 0, 0, 0.26);
+  -moz-box-shadow: 0px 5px 13px 0px rgba(0, 0, 0, 0.26);
+  box-shadow: 0px 5px 13px 0px rgba(0, 0, 0, 0.26);
 }
 nav a {
   color: #D51744 !important;
@@ -11904,7 +11907,7 @@ footer .container button {
 
 #hero {
   position: relative;
-  width: 100vw;
+  width: 100%;
   height: 60vh;
 }
 #hero::before {
@@ -11927,7 +11930,7 @@ footer .container button {
 .wrapper {
   position: relative;
   z-index: 1;
-  color: white;
+  color: #c2ebe8;
   text-align: left;
   top: 50%;
   left: 10%;
@@ -11939,45 +11942,67 @@ footer .container button {
 
 #backstory-field {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  height: 100vh;
   flex-direction: column;
 }
 
-.backstory-buble {
-  height: 40vh;
+.backstory-section {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-}
-
-.backstory-image {
-  width: auto;
-  height: 24.5rem;
+  padding: 20px;
+  width: 50%;
+  flex-direction: row;
+  margin-top: 10rem;
 }
 
 .backstory-text {
-  text-align: left;
+  width: 60%;
+  padding-right: 100px;
+  margin: 0 auto;
+  font-weight: bold;
+  color: #36c4e8;
+  line-height: 1.5;
+  text-align: justify;
+  letter-spacing: 0.05em;
+}
+.backstory-text p {
+  font-size: 1.3em;
+}
+.backstory-text h3, .backstory-text .h3 {
+  font-size: 2.5em;
+  text-align: right;
 }
 
-.featured {
-  margin: auto;
-  padding-top: 5rem;
+.backstory-image {
   width: 40%;
-  height: 20%;
-  display: flex;
+  margin: 0 auto;
 }
-.featured h2, .featured .h2 {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+
+#featured {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.team-title {
   text-align: center;
-  font-size: 2rem;
+  font-size: 4em;
+  margin-bottom: 1em;
+  color: #36c4e8;
 }
 
 .card {
   border-radius: 1em;
   overflow: hidden;
   position: relative;
+  color: #c2ebe8;
 }
 .card h3, .card .h3 {
   margin-top: 10%;
@@ -11986,7 +12011,6 @@ footer .container button {
   font-size: 3em;
   font-weight: bold;
   line-height: 1.25;
-  text-shadow: 0 0 0.25em red;
   transition: 0.75s;
 }
 .card p {
@@ -11995,7 +12019,6 @@ footer .container button {
   text-align: center;
   font-size: 1em;
   line-height: 1.5;
-  text-shadow: 0 0 0.25em red;
   opacity: 0;
   transition: 0.75s;
 }
