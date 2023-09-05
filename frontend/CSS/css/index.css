@@ -11906,14 +11906,16 @@ footer .container button {
 }
 
 body {
-  background-color: #dedede;
+  background-color: #f7f0f3;
 }
 
 section.hero-wrapper {
   position: relative;
   width: 100% !important;
   height: 600px;
-  margin-top: 54px;
+  margin-top: 72px;
+  display: flex;
+  align-items: center;
 }
 
 .shit {
@@ -11928,7 +11930,6 @@ section.hero-wrapper > section {
 }
 
 .accent-row {
-  background-color: #FAB9D1;
   height: 40% !important;
   padding-left: 30px;
   padding-top: 30px;
@@ -11937,7 +11938,7 @@ section.hero-wrapper > section {
 #sml-circle {
   position: absolute;
   z-index: 2;
-  top: -25px;
+  top: 0px;
   right: 310px;
   width: 250px;
   height: 250px;
@@ -11979,13 +11980,12 @@ section.hero-wrapper > section {
 
 .hero-go-to-action {
   display: inline-block;
-  margin-left: 60px;
-  margin-top: 50px;
   padding: 10px 15px;
   background-color: #D51744;
   color: #fff;
   border-radius: 7px;
   text-decoration: none;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=index.css.map */

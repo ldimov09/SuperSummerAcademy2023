@@ -26,21 +26,18 @@
 		</div>
 	</div>
 </div>-->
-<h1>Sample</h1>
 
 <section class="hero-wrapper">
-	<section>
-		<div id="sml-circle"></div>
-	</section>
 	<section class="accent-row">
 		<h1>Ice Cream World</h1>
-		<p>Lorem ipsum dolor sit amet <br>consectetur adipisicing elit. Aliquam minima facilis non beatae, <br> id ratione
+		<p>Lorem ipsum dolor sit amet <br>consectetur adipisicing elit. Aliquam minima facilis non beatae, <br> id
+			ratione
 			exercitationem similique.</p>
+			<div id="sml-circle"></div>
+		<a class="hero-go-to-action">Buy everyting</a>
+		<a class="hero-go-to-action">Do sth else</a>
 		<div id="big-circle"></div>
 		<div id="mid-circle"></div>
-	</section>
-	<section>
-		<a class="hero-go-to-action">GO TO ACTION</a>
 	</section>
 </section>
 <!--#include file="./footer.shtml"-->
