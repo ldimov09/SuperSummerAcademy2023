@@ -24,7 +24,7 @@
 	</section>-->
 
 	<section class="content1-section">
-		<article class="text-wrapper">
+		<div class="text-wrapper">
 			<h2>Нашите услуги</h2>
 			<p>
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium nemo non minima voluptates minus a,
@@ -37,8 +37,8 @@
 				sint mollitia eaque beatae labore veniam perferendis provident harum maiores asperiores recusandae
 				officia facere !
 			</p>
-		</article>
-		<article id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+		</div>
+		<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
 		  <div class="carousel-inner">
 		    <div class="carousel-item active">
 		      <img src="../images/services9.jpg" class="d-block w-100" alt="...">
@@ -70,7 +70,7 @@
 		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
 		    <span class="visually-hidden">Next</span>
 		  </button>
-		</article>
+		</div>
 	</section>
 	<h2 class="mt-5" style="text-align: center;">Вкусове</h2>
 	<section class="card-holder">

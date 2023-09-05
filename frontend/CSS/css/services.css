@@ -23965,13 +23965,21 @@ main {
 
 .content1-section {
   width: 100%;
-  height: 600px;
   display: flex;
   justify-content: space-between;
   padding: 50px 15%;
+  gap: 10vmin;
 }
 .content1-section .carousel-inner img {
   border-radius: 30px;
+}
+
+#carouselExampleControls {
+  flex: 1;
+}
+
+.text-wrapper {
+  flex: 1;
 }
 
 .content1-section > article {
