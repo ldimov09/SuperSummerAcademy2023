@@ -1,5 +1,6 @@
 		<footer>
 			<div class="container justify-content-center py-4">
+				<h2>Follow our</h2>
 				<h3>Ice Cream World</h3>
 				<button href="#">
 					<i class="fa-brands fa-instagram"></i>
@@ -12,7 +13,6 @@
 				</button>
 			</div>
   		</footer>
-	</div>
 	<script src="https://kit.fontawesome.com/a1312d148e.js" crossorigin="anonymous"></script>
-</body>
+	</body>
 </html>

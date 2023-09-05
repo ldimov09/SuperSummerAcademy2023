@@ -1,34 +1,64 @@
 @import 'main';
 
-.hero-img-wrapper {
-	background-color: $primary;
-	display: flex;	
-	justify-content: space-around;
-	position: relative;
-	height: 593px;
-	
-	#circle {
-		position: absolute;
-		right: 250px;
-		bottom: 220px;
-			
-	}
-
-	#ice-cream {
-		position: absolute;
-		right: 320px;
-	}
-
-	#girl {
-		position: absolute;
-		bottom: 0;
-		right: 40px;
-	}
-
-	#milk {
-		position: absolute;
-		bottom: 0;
-		left: 50px;
-	}
-
-}
+//.hero-img-wrapper {
+//	background-color: $primary;
+//	display: flex;	
+//	justify-content: space-around;
+//	position: relative;
+//	height: 593px;
+//	
+//	#circle {
+//		position: absolute;
+//		right: 250px;
+//		bottom: 220px;
+//			
+//	}
+//
+//	#ice-cream {
+//		position: absolute;
+//		right: 320px;
+//	}
+//
+//	#girl {
+//		position: absolute;
+//		bottom: 0;
+//		right: 40px;
+//	}
+//
+//	#milk {
+//		position: absolute;
+//		bottom: 0;
+//		left: 50px;
+//	}
+//
+//	.title {
+//		margin-right: 60rem;
+//		margin-top: 3rem;
+//		font-family: 'Merienda', cursive;
+//		font-weight: 900;
+//		font-size: 70px;
+//		color: $accent;
+//		span {
+//			color: $secondary;
+//		}
+//	}
+//
+//	.hero-buttons {
+//		margin: 0 2rem;
+//		.button {
+//			background-color: $primary;
+//			border-radius: 40%;
+//			color: white;
+//			padding: .5rem;
+//
+//			.btn1 {
+//
+//			}
+//			.btn2 {
+//
+//			}
+//		}
+//	}
+//
+//
+//}

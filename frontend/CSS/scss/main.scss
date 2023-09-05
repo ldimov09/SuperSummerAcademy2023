@@ -6,35 +6,47 @@
 
 body {
 	margin: 0;
-	padding: 0
+	padding: 0;
+	user-select: none;
 }
 
 nav {
-	position: absolute;
 	width: 100%;
+	display: flex;
+	//justify-content: center !important;
 
 	.container-fluid {
 		background-color: $primary;
+	}
+	a {
+		color: $secondary !important;
+		font-family: 'Merienda', cursive;
+		font-size: 18px;
+	}
+	 
+	a:hover {
+		color: $accent !important;	
 	}
 }
 
 nav.navbar {
 	padding: 0;
+	position: fixed;
+	top: 0;
+	z-index: 9999;
 	.navbar-nav {
 		padding: 1rem;
 	}
-	a.nav-link {
-		color: $secondary;
-		font-family: 'Merienda', cursive;
-		font-size: 18px;
-	}
+	
 }
 
 footer {
 	background-color: $primary;
 	.container {
+		text-align: center;
+		color: white;
 		width: 100% !important;
-		h3 {
+		h3, h2{
 			color: $secondary;
 			font-family: 'Merienda', cursive;
 			font-size: 20px;
