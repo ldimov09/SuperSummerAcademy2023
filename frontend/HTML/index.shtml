@@ -9,5 +9,11 @@
 		<title>Document</title>
 	</head>
 <!--#include file="./navbar.shtml"-->
-<h1>vasii3iiii</h1>
+<div class="hero-img-wrapper">
+	<div></div>
+	<img id="circle" src="../images/index-circle.png" width="400" height="400">
+	<img id="ice-cream" src="../images/index-icecream.png" width="250">
+	<img id="girl" src="../images/index-girl.png" width="300" height="200">
+	<img id="milk" src="../images/index-milk.png" width="300" height="300">
+</div>
 <!--#include file="./footer.shtml"-->
