@@ -64,7 +64,7 @@
 //}
 
 body{
-    background-color: #f7f0f3;
+    background-color: hsl(334, 30%, 95%);
 }
 
 section.hero-wrapper {
@@ -74,13 +74,10 @@ section.hero-wrapper {
     margin-top: 72px;
     display: flex;
     align-items: center;
+    background-image: url('../../images/index-icecream-backgound.jpg');
+    background-size: cover;
 }
 
-.shit{
-    background-color: black !important;
-    width: 100vw;
-    height: 100vh !important;
-}
 
 section.hero-wrapper > section{
     width: 100%;
@@ -91,6 +88,8 @@ section.hero-wrapper > section{
     height: 40% !important;
     padding-left: 30px;
     padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
 }
 
 #sml-circle{
@@ -141,6 +140,7 @@ section.hero-wrapper > section{
 
     background-color: #FAB9D1;
     border: 10px solid #fff;
+    background-image: url('../../images/services9.jpg');
     background-size: cover;
     background-position: center center;
 }
@@ -154,4 +154,8 @@ section.hero-wrapper > section{
     text-decoration: none;
     cursor: pointer;
     
+}
+
+.text-action-buttons-container{
+
 }

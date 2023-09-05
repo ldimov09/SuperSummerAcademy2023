@@ -19,7 +19,7 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-	background-attachment: fixed;
+    background-attachment: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,18 +35,24 @@ main {
 
 .content1-section {
     width: 100%;
-    height: 600px;
     display: flex;
     justify-content: space-between;
     padding: 50px 15%;
+    gap: 10vmin;
 
-	
+    .carousel-inner {
+        img {
+            border-radius: 30px;
+        }
+    }
+}
 
-	.carousel-inner {
-		img {
-			border-radius: 30px;
-		}
-	}
+#carouselExampleControls{
+    flex: 1;
+}
+
+.text-wrapper{
+    flex: 1;
 }
 
 .content1-section > article {
@@ -55,9 +61,9 @@ main {
     padding: 20px;
     border-radius: 14px;
 
-	p {
-		text-align: justify;
-	}
+    p {
+        text-align: justify;
+    }
 }
 
 .content1-section > .image {
@@ -67,11 +73,11 @@ main {
     background-position: center;
 }
 h2 {
-		text-align: center;
-		color: $accent;
-		font-size: 48px;
-		text-decoration: $primary underline;
-		padding-bottom: 1rem;
+    text-align: center;
+    color: $accent;
+    font-size: 48px;
+    text-decoration: $primary underline;
+    padding-bottom: 1rem;
 }
 
 .card-holder {
