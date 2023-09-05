@@ -71,11 +71,8 @@
 		    <span class="visually-hidden">Next</span>
 		  </button>
 		</article>
-		<!--<article class="image">
-
-		</article>-->
 	</section>
-	<h2 style="text-align: center;">Вкусове</h2>
+	<h2 class="mt-5" style="text-align: center;">Вкусове</h2>
 	<section class="card-holder">
 		<article class="flavour-card">
 			<img src="../images/icecream2-home-pic1.png" width="200" height="200">
