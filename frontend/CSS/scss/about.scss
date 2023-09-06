@@ -93,6 +93,7 @@ h2 {
 }
 
 @media screen and (max-width: 430px) {
+
     #history, #team{
         flex-direction: column !important;
     }
@@ -100,15 +101,15 @@ h2 {
 
 */
 
-.bbl1{
+.bbl1 {
     width: 370px;
     height: 370px;
     border-radius: 200px;
-    background-color: #d1d800;
+    //background-color: #d1d800;
     border: 10px solid white;
 }
 
-.bbl2{
+.bbl2 {
     position: absolute;
     width: 250px;
     height: 250px;
@@ -118,18 +119,18 @@ h2 {
 }
 
 //Top bubble
-.bubbles-history .bbl2{
+.bubbles-history .bbl2 {
     top: -70px;
     right: 10px;
 }
 
 ///Bottom bubble
-.bubbles-team .bbl2{
+.bubbles-team .bbl2 {
     top: -70px;
     left: 10px;
 }
 
-.about-section{
+.about-section {
     margin-top: 40px !important;
     display: flex;
     width: 60%;
@@ -137,47 +138,69 @@ h2 {
     justify-content: space-around;
 }
 
-.bubbles-history, .bubbles-team{
+.bubbles-history,
+.bubbles-team {
     position: relative;
 }
 
-.text-about{
+.text-about {
     max-width: 50%;
 }
 
-h2{
+h2 {
     text-align: center;
 }
 
-@media screen and (max-width: 430px) {
+.bubbles-history .bubble.bbl1 {
+    background-image: url("../../images/Ellipse 15.png");
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 
-    .about-section{
+.bubbles-history .bubble.bbl2 {
+    background-image: url("../../images/Ellipse 14.png");
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.bubbles-team .bubble.bbl1 {
+    background-image: url("../../images/team2.png");
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.bubbles-team .bubble.bbl2 {
+    background-image: url("../../images/team1.png");
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 430px) {
+    .about-section {
         flex-direction: column;
         justify-content: center;
         align-items: stretch;
     }
-
-    .text-about{
+    .text-about {
         width: 100%;
         max-width: 100%;
         margin-bottom: 75px;
     }
-
-    .flex-reverse{
+    .flex-reverse {
         flex-direction: column-reverse;
     }
-
-    .bbl1{
+    .bbl1 {
         width: 300px;
         height: 300px;
         border-radius: 150px;
     }
-
-    
-    .bbl2{
+    .bbl2 {
         width: 200px;
         height: 200px;
         border-radius: 100px;
     }
-
-}   
+}

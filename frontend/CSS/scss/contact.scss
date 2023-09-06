@@ -1,7 +1,12 @@
 @import "main";
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
 
 .contact-page-container {
-    margin-top: 72px;
+    margin-top: 150px;
     padding: 30px;
 }
 
@@ -9,7 +14,6 @@
     border-radius: 28px;
     background-color: #efefef;
     padding: 40px;
-
     h1 {
         text-align: center;
         font-size: 36px;
@@ -33,7 +37,7 @@
     border-radius: 21px;
 }
 
-.time-tag:hover{
+.time-tag:hover {
     background-color: #ddd;
 }
 
@@ -42,28 +46,27 @@
     background-color: #000;
 }
 
-.selected:hover{
+.selected:hover {
     background-color: #000;
     color: white;
-
 }
 
-.my-primary{
+.my-primary {
     background-color: $secondary;
     border: none;
 }
 
-.my-primary:hover{
+.my-primary:hover {
     background-color: $secondary-light;
 }
 
-.book-app-form-container{
+.book-app-form-container {
     width: 60%;
     margin: 0 auto;
 }
 
 @media screen and (max-width: 430px) {
-    .book-app-form-container{
+    .book-app-form-container {
         width: 100%;
     }
 }

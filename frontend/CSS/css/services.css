@@ -11856,7 +11856,14 @@ body {
   padding: 0;
   user-select: none;
 }
-body h1, body .h1, body h2, body .h2, body h3, body .h3, body h4, body .h4, body a {
+body h1, body .h1,
+body h2,
+body .h2,
+body h3,
+body .h3,
+body h4,
+body .h4,
+body a {
   font-family: "Inter";
 }
 
@@ -11891,15 +11898,17 @@ nav.navbar .navbar-nav {
 }
 
 footer {
-  background-color: #D88EDB;
+  background-color: #d6d8da;
 }
 footer .container {
   text-align: center;
   color: white;
   width: 100% !important;
 }
-footer .container h3, footer .container .h3, footer .container h2, footer .container .h2 {
-  color: #568F84;
+footer .container h3, footer .container .h3,
+footer .container h2,
+footer .container .h2 {
+  color: #8D4F8F;
   font-family: "Merienda", cursive;
   font-size: 20px;
   text-align: center;
@@ -11911,6 +11920,10 @@ footer .container button {
 
 body {
   overflow-x: hidden;
+}
+
+.page-title {
+  margin-top: 144px;
 }
 
 #intro {
@@ -11926,7 +11939,6 @@ body {
 h2, .h2 {
   text-align: center;
   font-size: 2em;
-  margin-top: 144px !important;
   font-weight: 600;
 }
 
@@ -11947,7 +11959,10 @@ h2, .h2 {
   width: 220px;
   height: 220px;
   border-radius: 175px;
-  background-color: #d1d800;
+  background-image: url(../../images/icecream.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
   border: 10px solid white;
 }
 
@@ -11959,7 +11974,10 @@ h2, .h2 {
   width: 290px;
   height: 290px;
   border-radius: 175px;
-  background-color: #54980f;
+  background-image: url(../../images/icecream-1.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
   border: 10px solid white;
 }
 
@@ -11971,7 +11989,10 @@ h2, .h2 {
   width: 300px;
   height: 300px;
   border-radius: 175px;
-  background-color: #110748;
+  background-image: url(../../images/icecream-2.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
   border: 10px solid white;
 }
 
@@ -11983,11 +12004,15 @@ h2, .h2 {
   width: 220px;
   height: 220px;
   border-radius: 175px;
-  background-color: #08a9e4;
+  background-image: url(../../images/icecream-3.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
   border: 10px solid white;
 }
 
 #tastes {
+  margin-top: 50px;
   display: block;
   flex-wrap: wrap;
   justify-content: space-around;

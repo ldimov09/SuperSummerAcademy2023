@@ -1,8 +1,11 @@
 @import 'main';
 @import 'services-variables';
-
-body{
+body {
     overflow-x: hidden;
+}
+
+.page-title {
+    margin-top: 144px;
 }
 
 #intro {
@@ -14,10 +17,10 @@ body{
     padding-top: 100px;
     margin-bottom: 50px;
 }
+
 h2 {
     text-align: center;
     font-size: 2em;
-    margin-top: 144px !important;
     font-weight: 600;
 }
 
@@ -25,7 +28,7 @@ h2 {
     width: calc(100% - 450px);
 }
 
-.bubbles-container{
+.bubbles-container {
     width: 450px;
     position: relative;
 }
@@ -38,7 +41,10 @@ h2 {
     width: 220px;
     height: 220px;
     border-radius: 175px;
-    background-color: #d1d800;
+    background-image: url(../../images/icecream.png);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
     border: 10px solid white;
 }
 
@@ -50,7 +56,10 @@ h2 {
     width: 290px;
     height: 290px;
     border-radius: 175px;
-    background-color: #54980f;
+    background-image: url(../../images/icecream-1.png);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
     border: 10px solid white
 }
 
@@ -62,7 +71,10 @@ h2 {
     width: 300px;
     height: 300px;
     border-radius: 175px;
-    background-color: #110748;
+    background-image: url(../../images/icecream-2.png);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
     border: 10px solid white
 }
 
@@ -74,11 +86,15 @@ h2 {
     width: 220px;
     height: 220px;
     border-radius: 175px;
-    background-color: #08a9e4;
+    background-image: url(../../images/icecream-3.png);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
     border: 10px solid white
 }
 
 #tastes {
+    margin-top: 50px;
     display: block;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -131,31 +147,25 @@ h2 {
 }
 
 @media screen and (max-width: 430px) {
-    #all-tastes{
+    #all-tastes {
         display: flex;
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
     }
-
-    .taste{
+    .taste {
         margin-left: 0 !important;
     }
-
-    #intro{
+    #intro {
         flex-direction: column-reverse;
         margin-top: 90px;
         margin-bottom: 0;
     }
-
-    .intro-text{
+    .intro-text {
         width: 100%;
         margin-top: 290px;
     }
-
-    #tastes{
+    #tastes {
         margin-top: 0px;
     }
-
-
 }

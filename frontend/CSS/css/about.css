@@ -11856,7 +11856,14 @@ body {
   padding: 0;
   user-select: none;
 }
-body h1, body .h1, body h2, body .h2, body h3, body .h3, body h4, body .h4, body a {
+body h1, body .h1,
+body h2,
+body .h2,
+body h3,
+body .h3,
+body h4,
+body .h4,
+body a {
   font-family: "Inter";
 }
 
@@ -11891,15 +11898,17 @@ nav.navbar .navbar-nav {
 }
 
 footer {
-  background-color: #D88EDB;
+  background-color: #d6d8da;
 }
 footer .container {
   text-align: center;
   color: white;
   width: 100% !important;
 }
-footer .container h3, footer .container .h3, footer .container h2, footer .container .h2 {
-  color: #568F84;
+footer .container h3, footer .container .h3,
+footer .container h2,
+footer .container .h2 {
+  color: #8D4F8F;
   font-family: "Merienda", cursive;
   font-size: 20px;
   text-align: center;
@@ -12001,6 +12010,7 @@ h2 {
 }
 
 @media screen and (max-width: 430px) {
+
     #history, #team{
         flex-direction: column !important;
     }
@@ -12011,7 +12021,6 @@ h2 {
   width: 370px;
   height: 370px;
   border-radius: 200px;
-  background-color: #d1d800;
   border: 10px solid white;
 }
 
@@ -12042,7 +12051,8 @@ h2 {
   justify-content: space-around;
 }
 
-.bubbles-history, .bubbles-team {
+.bubbles-history,
+.bubbles-team {
   position: relative;
 }
 
@@ -12052,6 +12062,34 @@ h2 {
 
 h2, .h2 {
   text-align: center;
+}
+
+.bubbles-history .bubble.bbl1 {
+  background-image: url("../../images/Ellipse 15.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.bubbles-history .bubble.bbl2 {
+  background-image: url("../../images/Ellipse 14.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.bubbles-team .bubble.bbl1 {
+  background-image: url("../../images/team2.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.bubbles-team .bubble.bbl2 {
+  background-image: url("../../images/team1.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 @media screen and (max-width: 430px) {

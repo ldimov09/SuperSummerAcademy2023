@@ -11856,7 +11856,14 @@ body {
   padding: 0;
   user-select: none;
 }
-body h1, body .h1, body h2, body .h2, body h3, body .h3, body h4, body .h4, body a {
+body h1, body .h1,
+body h2,
+body .h2,
+body h3,
+body .h3,
+body h4,
+body .h4,
+body a {
   font-family: "Inter";
 }
 
@@ -11891,15 +11898,17 @@ nav.navbar .navbar-nav {
 }
 
 footer {
-  background-color: #D88EDB;
+  background-color: #d6d8da;
 }
 footer .container {
   text-align: center;
   color: white;
   width: 100% !important;
 }
-footer .container h3, footer .container .h3, footer .container h2, footer .container .h2 {
-  color: #568F84;
+footer .container h3, footer .container .h3,
+footer .container h2,
+footer .container .h2 {
+  color: #8D4F8F;
   font-family: "Merienda", cursive;
   font-size: 20px;
   text-align: center;
@@ -11909,8 +11918,14 @@ footer .container button {
   border: none;
 }
 
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
 .contact-page-container {
-  margin-top: 72px;
+  margin-top: 150px;
   padding: 30px;
 }
 
