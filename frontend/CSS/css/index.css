@@ -11920,8 +11920,9 @@ body {
   margin-top: 72px;
   display: flex;
   align-items: center;
-  background-image: url("../../images/index-icecream-backgound.jpg");
-  background-size: cover;
+  background-image: url("../../images/index-hero-banner-clouds.png");
+  background-color: #fff;
+  background-size: contain;
 }
 
 section.hero-wrapper > section {

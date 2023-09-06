@@ -11909,33 +11909,40 @@ footer .container button {
   border: none;
 }
 
-#intro {
-  width: 100%;
-  height: 700px;
-  display: block;
-  align-items: center;
-  justify-content: flex-start;
-  padding-top: 100px;
+body {
+  overflow-x: hidden;
 }
-#intro h2, #intro .h2 {
-  padding-right: 550px;
+
+#intro {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 100px;
+  margin-bottom: 50px;
+}
+
+h2, .h2 {
   text-align: center;
   font-size: 2em;
+  margin-top: 144px !important;
+  font-weight: 600;
 }
 
 .intro-text {
-  position: absolute;
-  top: 50%;
-  left: 35%;
-  size: 40%;
-  width: 300px;
-  transform: translate(-60%, -50%);
+  width: calc(100% - 450px);
+}
+
+.bubbles-container {
+  width: 450px;
+  position: relative;
 }
 
 #crl-1 {
   z-index: -1;
-  right: 420px;
-  top: 210px;
+  right: 140px;
+  top: 20px;
   position: absolute;
   width: 220px;
   height: 220px;
@@ -11945,9 +11952,9 @@ footer .container button {
 }
 
 #crl-2 {
-  z-index: -4;
-  right: 190px;
-  top: 100px;
+  z-index: -3;
+  right: -80px;
+  top: -200px;
   position: absolute;
   width: 290px;
   height: 290px;
@@ -11957,9 +11964,9 @@ footer .container button {
 }
 
 #crl-3 {
-  z-index: -3;
-  right: 180px;
-  top: 340px;
+  z-index: -4;
+  right: -75px;
+  top: 0px;
   position: absolute;
   width: 300px;
   height: 300px;
@@ -11970,8 +11977,8 @@ footer .container button {
 
 #crl-4 {
   z-index: -2;
-  right: 430px;
-  top: 370px;
+  right: 140px;
+  top: -125px;
   position: absolute;
   width: 220px;
   height: 220px;
@@ -11986,8 +11993,8 @@ footer .container button {
   justify-content: space-around;
   width: 100%;
   margin-top: 50px;
-  height: 500px;
   padding-top: 30px;
+  margin-bottom: 50px;
 }
 #tastes h2, #tastes .h2 {
   text-align: center;
@@ -12003,7 +12010,7 @@ footer .container button {
 .taste {
   background: #79DBC9;
   height: 120px;
-  width: 70%;
+  width: 82%;
   display: flex;
   margin: 10px;
   margin-left: 70px;
@@ -12033,8 +12040,8 @@ footer .container button {
   background-image: url("../../images/malini.png");
 }
 
-.taste-img.raspberries {
-  background-image: url("../../images/raspberries.png");
+.taste-img.Choco {
+  background-image: url("../../images/Choco.png");
 }
 
 .taste-img.lemon {
@@ -12047,6 +12054,30 @@ footer .container button {
 
 .taste-img.mint {
   background-image: url("../../images/mint.png");
+}
+
+@media screen and (max-width: 430px) {
+  #all-tastes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .taste {
+    margin-left: 0 !important;
+  }
+  #intro {
+    flex-direction: column-reverse;
+    margin-top: 90px;
+    margin-bottom: 0;
+  }
+  .intro-text {
+    width: 100%;
+    margin-top: 290px;
+  }
+  #tastes {
+    margin-top: 0px;
+  }
 }
 
 /*# sourceMappingURL=services.css.map */
