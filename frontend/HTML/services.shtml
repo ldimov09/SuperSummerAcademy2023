@@ -34,27 +34,27 @@
     <div id="all-tastes">
         <div class="taste">
             <div class="taste-img strawberris"></div>
-            <h3>Ягоди</h3>
+            <h3>Ягода</h3>
         </div>
         <div class="taste">
             <div class="taste-img malini"></div>
-            <h3>Малини</h3>
+            <h3>Малина</h3>
         </div>
         <div class="taste">
-            <div class="taste-img"></div>
+            <div class="taste-img raspberries"></div>
             <h3>Горски плодове</h3>
         </div>
         <div class="taste">
-            <div class="taste-img"></div>
-            <h3>Малини</h3>
+            <div class="taste-img lemon"></div>
+            <h3>Лимон</h3>
         </div>
         <div class="taste">
-            <div class="taste-img"></div>
-            <h3>Малини</h3>
+            <div class="taste-img lime"></div>
+            <h3>Лайм</h3>
         </div>
         <div class="taste">
-            <div class="taste-img"></div>
-            <h3>Малини</h3>
+            <div class="taste-img mint"></div>
+            <h3>Мента</h3>
         </div>
     </div>
 </section>
