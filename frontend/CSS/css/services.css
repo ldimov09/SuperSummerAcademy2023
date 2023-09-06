@@ -11981,14 +11981,11 @@ footer .container button {
 }
 
 #tastes {
-  margin-top: 50px;
-}
-
-#tastes {
   display: block;
   flex-wrap: wrap;
   justify-content: space-around;
   width: 100%;
+  margin-top: 50px;
   height: 500px;
   padding-top: 30px;
 }
