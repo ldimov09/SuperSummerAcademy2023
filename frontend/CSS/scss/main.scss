@@ -1,6 +1,6 @@
 @import 'variables';
 @import "../../node_modules/bootstrap/scss/bootstrap";
-@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
 
 
 
@@ -8,6 +8,10 @@ body {
 	margin: 0;
 	padding: 0;
 	user-select: none;
+
+	h1, h2, h3, h4, a {
+		font-family: 'Inter';
+	}
 }
 
 nav {
@@ -36,7 +40,7 @@ nav.navbar {
 	padding: 0;
 	position: fixed;
 	top: 0;
-	z-index: 9999;
+	z-index: 3;
 	.navbar-nav {
 		padding: 1rem;
 	}
