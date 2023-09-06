@@ -1,4 +1,3 @@
-@import 'main';
 <html lang="en">
 
 <head>
@@ -9,5 +8,31 @@
     <title>Document</title>
 </head>
 <!--#include file="./navbar.shtml"-->
+<section class="contact-page-container">
+    <div class="book-app-form-container">
+        <h1>Резервирай час</h1>
+        <div><span class="subtitle">Свободни часове:</span><input format="dd/mm/yyyy" id="date-input" class="right" type="date">
+        </div>
+        <div id="options-holder">
+            <i>Няма избрана дата. Моля, изберте валидна дата.</i>
+        </div>
+        <div>
+            <div class="mb-3 mt-3">
+                <label for="nameInp" class="form-label">Email</label>
+                <input class="form-control" type="text" name="name" id="nameInp">
+            </div>
+            <div class="mb-3">
+                <label for="emailInp" class="form-label">Име И Фамилия</label>
+                <input class="form-control" type="text" name="email" id="emailInp">
+            </div>
+            <div class="mb-3">
+                <label for="countInp" class="form-label">Брой посетители</label>
+                <input class="form-control" type="number" name="guest_count" id="countInp">
+            </div>
 
+        </div>
+        <div><button id="submit-button" class="btn btn-primary">Резервирай час!</button></div>
+    </div>
+</section>
+<script src="../Scripts/contact.js"></script>
 <!--#include file="./footer.shtml"-->

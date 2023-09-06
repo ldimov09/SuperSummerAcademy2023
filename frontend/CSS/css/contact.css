@@ -11905,4 +11905,40 @@ footer .container button {
   border: none;
 }
 
+.contact-page-container {
+  margin-top: 72px;
+  padding: 30px;
+}
+
+.book-app-form-container {
+  border-radius: 28px;
+  background-color: hsl(334, 30%, 95%);
+  padding: 40px;
+}
+.book-app-form-container h1, .book-app-form-container .h1 {
+  text-align: center;
+  font-size: 24px;
+}
+
+.right {
+  float: right;
+}
+
+.subtitle {
+  font-size: 24px;
+}
+
+.time-tag {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 5px 10px;
+  border: 1px solid black;
+  border-radius: 21px;
+}
+
+.selected {
+  color: white;
+  background-color: #000;
+}
+
 /*# sourceMappingURL=contact.css.map */
