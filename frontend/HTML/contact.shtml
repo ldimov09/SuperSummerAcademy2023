@@ -19,12 +19,12 @@
         </div>
         <div>
             <div class="mb-3 mt-3">
-                <label for="nameInp" class="form-label">Email</label>
-                <input class="form-control" type="text" name="name" id="nameInp">
+                <label for="emailInp" class="form-label">Email</label>
+                <input class="form-control" type="text" name="name" id="emailInp">
             </div>
             <div class="mb-3">
-                <label for="emailInp" class="form-label">Име И Фамилия</label>
-                <input class="form-control" type="text" name="email" id="emailInp">
+                <label for="nameInp" class="form-label">Име и Фамилия</label>
+                <input class="form-control" type="text" name="email" id="nameInp">
             </div>
             <div class="mb-3">
                 <label for="countInp" class="form-label">Брой посетители</label>

@@ -14,7 +14,6 @@ function loadAvailableHours(r) {
     optionsHolder.innerHTML = '';
     let i = 0;
     for (let key in r) {
-        console.log(i);
         const span = document.createElement('span');
         span.classList.add('time-tag');
         span.id = 'timeChoice' + i;
@@ -27,7 +26,6 @@ function loadAvailableHours(r) {
 }
 
 function selectOption(id) {
-    console.log(id);
     document.getElementById(id).classList.add('selected');
     if (selectedOption) {
         document.getElementById(selectedOption).classList.remove('selected');
@@ -39,7 +37,7 @@ function fetchAllFreeHours(event) {
     if (!dateInput.value) {
         return;
     }
-    fetch("http://127.0.0.1:8000/schedule?date=" + dateInput.value)
+    fetch("https://saturday.skostadinov.com/schedule?date=" + dateInput.value)
         .then(r => r.json())
         .then(r => loadAvailableHours(r));
 }
@@ -48,14 +46,12 @@ async function createAppointement() {
 
     let data;
     if (selectedOption, emailInp.value, nameInp.value, countInp.value) {
-        console.log("Creating Appointement");
         data = {
             email: emailInp.value,
             name: nameInp.value,
             guest_count: Number(countInp.value),
             date_time: `${dateInput.value} ${document.getElementById(selectedOption).textContent}:00`
         }
-        console.log(data);
     }
 
 
@@ -71,7 +67,7 @@ async function createAppointement() {
         redirect: 'follow'
     };
 
-    fetch("http://127.0.0.1:8000/schedule", requestOptions)
+    fetch("https://saturday.skostadinov.com/schedule", requestOptions)
         .then(response => response.text())
         .then(result => {
             alertUser();
