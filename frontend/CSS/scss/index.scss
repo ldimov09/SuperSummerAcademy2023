@@ -17,7 +17,7 @@ body {
     background-size: cover;
 }
 
-section.hero-wrapper>section {
+section.hero-wrapper > section {
     width: 100%;
     height: 30%;
 }
@@ -139,7 +139,7 @@ h1 {
     box-shadow: 10px 10px 5px 0px rgba(227, 214, 227, 1);
 }
 
-.flavour-card>img {
+.flavour-card > img {
     position: absolute;
     top: -110px;
     z-index: 2;
@@ -151,7 +151,7 @@ h1 {
     }
 }
 
-.card-content>h3 {
+.card-content > h3 {
     text-align: center;
     font-weight: 700;
 }
@@ -174,7 +174,8 @@ h1 {
         z-index: 2;
     }
     .section3-prepare {
-        //position: relative;
+        position: relative;
+        overflow: hidden;
         .section3-content {
             margin: 1rem;
             display: flex;
@@ -270,7 +271,7 @@ h1 {
     .circle.show-mobile {
         display: block;
         position: initial !important;
-        background-image: url('../../images/aa.png') !important;
+        background-image: url("../../images/aa.png") !important;
         background-position: center center;
     }
     h1 {
@@ -323,3 +324,17 @@ h1 {
         display: none !important;
     }
 }
+
+#line {
+    position: absolute;
+    left: 0;
+    top: 39px;
+    z-index: -999;
+    width: 100%;
+}
+
+/*
+
+  position: relative;
+  overflow: hidden;
+*/

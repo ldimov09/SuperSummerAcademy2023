@@ -12082,6 +12082,10 @@ h1, .h1 {
 .section-3 .line {
   z-index: 2;
 }
+.section-3 .section3-prepare {
+  position: relative;
+  overflow: hidden;
+}
 .section-3 .section3-prepare .section3-content {
   margin: 1rem;
   display: flex;
@@ -12226,5 +12230,18 @@ h1, .h1 {
     display: none !important;
   }
 }
+#line {
+  position: absolute;
+  left: 0;
+  top: 39px;
+  z-index: -999;
+  width: 100%;
+}
+
+/*
+
+  position: relative;
+  overflow: hidden;
+*/
 
 /*# sourceMappingURL=index.css.map */
