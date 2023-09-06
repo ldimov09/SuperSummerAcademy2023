@@ -58,21 +58,21 @@
 			<img id="line" src="../images/Line 1.png" width="1000px">
 			<div class="section3-content">
 				<div id="elipse1">
-					<img src="../images/Ellipse 1.png">
+					<img src="../images/Ellipse 1.png" class="dot-image">
 					<p class="section3-number">01</p>
 					<p class="section3-title">Избери вкус</p>
 					<p class="section3-content">Избери с какъв вкус искаш да е сладоледа,
 						който ще правиш и вземи съставките, необходими за него</p>
 				</div> 
 				<div id="elipse2" class="process-item">
-					<img src="../images/Path 11.png">
+					<img src="../images/Path 11.png" class="dot-image">
 					<p class="section3-number">02</p>
 					<p class="section3-title">Смеси състваките</p>
 					<p class="section3-content">Наслади се на процеса на приготвяне на
 						сладоледа и създай нови спомени с любимите си хора</p>
 				</div>
 				<div id="elipse3" class="process-item">
-					<img src="../images/Ellipse 1.png">
+					<img src="../images/Ellipse 1.png" class="dot-image">
 					<p class="section3-number">03</p>
 					<p class="section3-title">Наслади се</p>
 					<p class="section3-content">След новосъздадените прекрасни спомени се

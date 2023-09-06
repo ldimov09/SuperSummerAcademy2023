@@ -12212,6 +12212,9 @@ h1, .h1 {
   .section-4 {
     display: none;
   }
+  .dot-image {
+    display: none !important;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
