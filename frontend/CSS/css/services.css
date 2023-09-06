@@ -12035,4 +12035,20 @@ footer .container button {
   background-image: url("../../images/malini.png");
 }
 
+.taste-img.raspberries {
+  background-image: url("../../images/raspberries.png");
+}
+
+.taste-img.lemon {
+  background-image: url("../../images/lemon.png");
+}
+
+.taste-img.lime {
+  background-image: url("../../images/lime.png");
+}
+
+.taste-img.mint {
+  background-image: url("../../images/mint.png");
+}
+
 /*# sourceMappingURL=services.css.map */
