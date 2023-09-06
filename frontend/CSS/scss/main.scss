@@ -26,21 +26,22 @@ nav {
 		box-shadow: 0px 5px 13px 0px rgba(0,0,0,0.26);
 	}
 	a {
-		color: $secondary !important;
+		color: $primary-dark !important;
 		font-family: 'Merienda', cursive;
 		font-size: 18px;
 	}
 	 
 	a:hover {
-		color: $accent !important;	
+		color: $primary !important;	
 	}
 }
 
 nav.navbar {
-	padding: 0;
+	padding: 0 10px; 
 	position: fixed;
 	top: 0;
 	z-index: 3;
+	min-height: 72px;
 	.navbar-nav {
 		padding: 1rem;
 	}
@@ -65,5 +66,6 @@ footer {
 		}
 	}
 }
+
 
 

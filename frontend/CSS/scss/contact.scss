@@ -7,12 +7,13 @@
 
 .book-app-form-container {
     border-radius: 28px;
-    background-color: hsl(334, 30%, 95%);
+    background-color: #efefef;
     padding: 40px;
 
     h1 {
         text-align: center;
-        font-size: 24px;
+        font-size: 36px;
+        font-weight: 600;
     }
 }
 
@@ -32,7 +33,31 @@
     border-radius: 21px;
 }
 
+.time-tag:hover{
+    background-color: #ddd;
+}
+
 .selected {
     color: white;
     background-color: #000;
+}
+
+.selected:hover{
+    background-color: #000;
+    color: white;
+
+}
+
+.my-primary{
+    background-color: $secondary;
+    border: none;
+}
+
+.my-primary:hover{
+    background-color: $secondary-light;
+}
+
+.book-app-form-container{
+    width: 60%;
+    margin: 0 auto;
 }
