@@ -10,37 +10,81 @@
 	<title>Document</title>
 </head>
 <!--#include file="./navbar.shtml"-->
-<!--<div class="hero-img-wrapper">
-	<div></div>
-	<img id="circle" src="../images/index-circle.png" width="400" height="400">
-	<img id="ice-cream" src="../images/index-icecream.png" width="250">
-	<img id="girl" src="../images/index-girl.png" width="300" height="200">
-	<img id="milk" src="../images/index-milk.png" width="300" height="300">
-	<div>
-		<h1 class="title">
-			Ice Cream <br><span class="world">World</span>
-		</h1>
-		<div class="hero-buttons">
-			<button class="button btn1" href="./services.shtml">Услуги</button>
-			<button class="button btn2" href="./about.shtml">За нас</button>
-		</div>
-	</div>
-</div>-->
-
 <section class="hero-wrapper">
 	<section class="accent-row">
 		<div class="text-action-buttons-container">
 			<h1>Ice Cream World</h1>
-			<p>Lorem ipsum dolor sit amet <br>consectetur adipisicing elit. Aliquam minima facilis non beatae, <br> id
-				ratione
-				exercitationem similique.</p>
-			<a class="hero-go-to-action">Buy everyting</a>
-			<a class="hero-go-to-action">Do sth else</a>
+			<h4>Това не е просто работилница <br>за сладолед, това е работилница <br> за преживявания</h4>
+			<div class="hero-action-btns">
+				<a class="hero-go-to-action" href="./contact.shtml" >Запази час</a>
+				<a class="hero-go-to-action" href="./about.shtml" >Научете повече</a>
+			</div>
 		</div>
 		<div></div>
 		<div id="sml-circle"></div>
 		<div id="big-circle"></div>
 		<div id="mid-circle"></div>
+	</section>
+</section>
+<section class="section-2">
+	<h1>Натурални продукти</h1>
+	<section class="card-holder">
+		<article class="flavour-card">
+			<img src="../images/raspberries.png" width="130" height="130">
+			<div class="card-content">
+				<h3>Плодове</h3>
+				<p>Домашно отгледани подове БЕЗ гмо, без допълнително наторяване отгледани</p>
+			</div>
+		</article>
+		<article class="flavour-card">
+			<img src="../images/milk.png" width="130" height="130">
+			<div class="card-content">
+				<h3>Прясно мляко</h3>
+				<p>Разнообразен избор от различни видове домашни пресни млека</p>
+			</div>
+		</article>
+		<article class="flavour-card">
+			<img src="../images/smetana.png" width="130" height="130">
+			<div class="card-content">
+				<h3>Сметана</h3>
+				<p>Сметана, направена от домашно прясно мляко</p>
+			</div>
+		</article>
+	</section>
+	<section class="section-3">
+		<h1>Приготви своя сладолед</h1>
+		<section class="section3-prepare">
+			<img id="line" src="../images/Line 1.png" width="1000px">
+			<div class="section3-content">
+				<div id="elipse1">
+					<img src="../images/Ellipse 1.png">
+					<p class="section3-number">01</p>
+					<p class="section3-title">Избери вкус</p>
+					<p class="section3-content">Избери с какъв вкус искаш да е сладоледа, 
+						който ще правиш и вземи съставките, необходими за него</p>
+				</div>
+				<div id="elipse2">
+					<img src="../images/Path 11.png">
+					<p class="section3-number">02</p>
+					<p class="section3-title">Смеси състваките</p>
+					<p class="section3-content">Наслади се на процеса на приготвяне на 
+						сладоледа и създай нови спомени с любимите си хора</p>
+				</div>
+				<div id="elipse3">
+					<img src="../images/Ellipse 1.png">
+					<p class="section3-number">03</p>
+					<p class="section3-title">Наслади се</p>
+					<p class="section3-content">След новосъздадените прекрасни спомени се 
+						наслади и на прекрасния сладолед, който сте направили</p>
+				</div>
+			</div>
+		</section>
+	</section>
+	<section class="section-4">
+		<div class="section4-content">
+			<p>Направи уникален сладолед и прекрасни спомени</p>
+			<a href="./services.shtml">Научи повече</a>
+		</div>
 	</section>
 </section>
 <!--#include file="./footer.shtml"-->

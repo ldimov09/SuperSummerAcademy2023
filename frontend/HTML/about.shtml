@@ -10,7 +10,7 @@
     <title>Document</title>
 </head>
 <!--#include file="./navbar.shtml"-->
-<section id="hero">
+<!--<section id="hero">
     <div class="wrapper">
         <h2>
             family ice-cream workshop<br>Mmmmm....
@@ -51,6 +51,61 @@
         </div>
     </div>
 
-</section>
-
+</section>-->
+<main class="content-holder">
+	<section class="hero-section">
+		<article class="hero-title">
+			<h1 id="ppp">За Нас</h1>
+		</article>
+	</section>
+	<section class="content1-section">
+		<article class="text-wrapper">
+			<h2>Нашите услуги</h2>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium nemo non minima voluptates minus a,
+				sint mollitia eaque beatae labore veniam perferendis provident harum maiores asperiores recusandae
+				officia facere !Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium nemo non minima
+				voluptates minus a,
+				sint mollitia eaque beatae labore veniam perferendis provident harum maiores asperiores recusandae
+				officia facere !Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium nemo non minima
+				voluptates minus a,
+				sint mollitia eaque beatae labore veniam perferendis provident harum maiores asperiores recusandae
+				officia facere !
+			</p>
+		</article>
+		<article id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+		  <div class="carousel-inner">
+		    <div class="carousel-item active">
+		      <img src="../images/services9.jpg" class="d-block w-100" alt="...">
+		    </div>
+		    <div class="carousel-item">
+		      <img src="../images/services7.jpg" class="d-block w-100" alt="...">
+		    </div>
+		    <div class="carousel-item">
+		      <img src="../images/services10.jpg" class="d-block w-100" alt="...">
+		    </div>
+		    <div class="carousel-item">
+		      <img src="../images/services1.jpg" class="d-block w-100" alt="...">
+		    </div>
+		    <div class="carousel-item">
+		      <img src="../images/services6.jpg" class="d-block w-100" alt="...">
+		    </div>
+		    <div class="carousel-item">
+		      <img src="../images/services4.jpg" class="d-block w-100" alt="...">
+		    </div>
+		    <div class="carousel-item">
+		      <img src="../images/services8.jpg" class="d-block w-100" alt="...">
+		    </div>
+		  </div>
+		  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    <span class="visually-hidden">Previous</span>
+		  </button>
+		  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    <span class="visually-hidden">Next</span>
+		  </button>
+		</article>
+	</section>
+</main>
 <!--#include file="./footer.shtml"-->
