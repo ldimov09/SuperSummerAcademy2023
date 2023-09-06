@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Appoitment;
 use Illuminate\Http\Request;
 use Illuminate\Support\Carbon;
+use Validator;
 
 class AppointmentController extends Controller
 {
@@ -51,30 +52,38 @@ class AppointmentController extends Controller
     }
 
     public function create(Request $request)
-    {
-        $validatedData = $request->validate([
+    {        
+
+        $v = Validator::make($request->all(), [
             'name' => 'required|string',
             'email' => 'required|string',
             'guest_count' => 'required|integer',
             'date_time' => 'required|string',
         ]);
+     
+        if ($v->fails())
+        {
+            echo $v->errors()->toJson();
+            exit();
+        }
+
 
         $date = \Carbon\Carbon::parse($request->date_time);
-
+        
         
         $date->format('Y-m-d');
         $date->format('H:i:s');
-
+        
         //$date = Carbon::createFromFormat('m/d/Y', $request->date_time);
 
+        
         $record = new Appoitment;
         $record->name = $request->name ?? '';
         $record->email = $request->email ?? '';
         $record->guest_count = $request->guest_count ?? 0;
         $record->date_time = $date ?? '';
-
+        
         $record->save();
-
         if ($record) {
             return response()->json(['message' => 'Record created successfully', 'data' => $record]);
         }

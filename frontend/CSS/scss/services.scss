@@ -1,136 +1,124 @@
-@import "main";
-@import "services-variables";
-@import "about";
-@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@800&family=Roboto:wght@300&display=swap");
-
-h1 {
-    color: $primary;
-}
-
-main {
+@import 'main';
+@import 'services-variables';
+#intro {
     width: 100%;
-}
-
-.hero-section {
-    width: 100%;
-    height: 500px;
-    background-color: rgba(0, 0, 0, 0.174);
-    background-image: url("../../images/services-hero2.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    display: flex;
-    justify-content: center;
+    height: 700px;
+    display: block;
     align-items: center;
-}
-
-.hero-title > h1 {
-    font-size: 84px;
-    font-family: "Merienda", cursive;
-    color: white;
-    font-weight: 900;
-    text-transform: uppercase;
-}
-
-.content1-section {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 50px 15%;
-    gap: 10vmin;
-
-    .carousel-inner {
-        img {
-            border-radius: 30px;
-        }
+    justify-content: flex-start;
+    padding-top: 100px;
+    h2 {
+        padding-right: 550px;
+        text-align: center;
+        font-size: 2em;
     }
 }
 
-#carouselExampleControls{
-    flex: 1;
+.intro-text {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    size: 40%;
+    width: 300px;
+    transform: translate(-60%, -50%);
 }
 
-.text-wrapper{
-    flex: 1;
+#crl-1 {
+    z-index: -1;
+    right: 420px;
+    top: 210px;
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    border-radius: 175px;
+    background-color: #d1d800;
+    border: 10px solid white;
 }
 
-.content1-section > article {
-    height: 100%;
-    width: 40%;
-    padding: 20px;
-    border-radius: 14px;
+#crl-2 {
+    z-index: -4;
+    right: 190px;
+    top: 100px;
+    position: absolute;
+    width: 290px;
+    height: 290px;
+    border-radius: 175px;
+    background-color: #54980f;
+    border: 10px solid white
+}
 
-    p {
-        text-align: justify;
+#crl-3 {
+    z-index: -3;
+    right: 180px;
+    top: 340px;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 175px;
+    background-color: #110748;
+    border: 10px solid white
+}
+
+#crl-4 {
+    z-index: -2;
+    right: 430px;
+    top: 370px;
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    border-radius: 175px;
+    background-color: #08a9e4;
+    border: 10px solid white
+}
+
+#tastes {
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 50px;
+    height: 500px;
+    padding-top: 30px;
+    h2 {
+        text-align: center;
+        font-size: 2em;
     }
 }
 
-.content1-section > .image {
-    background-image: url("../../images/services-side-image.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-h2 {
-    text-align: center;
-    color: $accent;
-    font-size: 48px;
-    text-decoration: $primary underline;
-    padding-bottom: 1rem;
-}
-
-.card-holder {
-    display: flex;
-    justify-content: space-between;
-    padding: 50px 15%;
-    width: 100%;
-    height: 600px;
+#all-tastes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     margin-top: 100px;
 }
 
-.flavour-card {
-    position: relative;
+.taste {
+    background: $secondary-light;
+    height: 120px;
+    width: 70%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 25%;
-    background-color: $primary;
-    padding: 25px;
-    border-radius: 14px;
-    -webkit-box-shadow: 10px 10px 27px 0px rgba(120, 120, 120, 0.72);
-    -moz-box-shadow: 10px 10px 27px 0px rgba(120, 120, 120, 0.72);
-    box-shadow: 10px 10px 27px 0px rgba(120, 120, 120, 0.72);
-    color: #585858;
-    transition-duration: 0.5s;
+    margin: 10px;
+    margin-left: 70px;
+    border-radius: 100px;
+    h3 {
+        width: 65%;
+        padding-top: 45px;
+        padding-left: 70px;
+        font-size: 1.5rem;
+        word-wrap: break-word;
+    }
 }
 
-.flavour-card:hover {
-    -webkit-box-shadow: 25px 25px 60px 0px rgba(120, 120, 120, 0.65);
-    -moz-box-shadow: 25px 25px 60px 0px rgba(120, 120, 120, 0.65);
-    box-shadow: 25px 25px 60px 0px rgba(120, 120, 120, 0.65);
+.taste-img {
+    background-position: center center;
+    height: 120px;
+    width: 35%;
+    display: inline-block;
+    //margin-left: 70px;
+    border-radius: 60px;
 }
 
-.flavour-card > img {
-    position: absolute;
-    top: -140px;
-    right: 30px;
-    z-index: -9999;
-}
-
-.card-content > h3 {
-    text-align: center;
-}
-
-.flavour-card:nth-child(1) {
-    background-color: $primary;
-}
-
-.flavour-card:nth-child(2) {
-    background-color: #efd1a5;
-}
-
-.flavour-card:nth-child(3) {
-    background-color: #c1e297;
+@each $image in $images {
+    .taste-img.#{$image} {
+        background-image: url('../../images/#{$image}.png');
+    }
 }

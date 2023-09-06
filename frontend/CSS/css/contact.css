@@ -11871,19 +11871,20 @@ nav .container-fluid, nav .container-sm, nav .container-md, nav .container-lg, n
   box-shadow: 0px 5px 13px 0px rgba(0, 0, 0, 0.26);
 }
 nav a {
-  color: #568F84 !important;
+  color: #8D4F8F !important;
   font-family: "Merienda", cursive;
   font-size: 18px;
 }
 nav a:hover {
-  color: #EDDEA8 !important;
+  color: #D88EDB !important;
 }
 
 nav.navbar {
-  padding: 0;
+  padding: 0 10px;
   position: fixed;
   top: 0;
   z-index: 3;
+  min-height: 72px;
 }
 nav.navbar .navbar-nav {
   padding: 1rem;
@@ -11906,6 +11907,72 @@ footer .container h3, footer .container .h3, footer .container h2, footer .conta
 footer .container button {
   background-color: #D88EDB;
   border: none;
+}
+
+.contact-page-container {
+  margin-top: 72px;
+  padding: 30px;
+}
+
+.book-app-form-container {
+  border-radius: 28px;
+  background-color: #efefef;
+  padding: 40px;
+}
+.book-app-form-container h1, .book-app-form-container .h1 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.right {
+  float: right;
+}
+
+.subtitle {
+  font-size: 24px;
+}
+
+.time-tag {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 5px 10px;
+  border: 1px solid black;
+  border-radius: 21px;
+}
+
+.time-tag:hover {
+  background-color: #ddd;
+}
+
+.selected {
+  color: white;
+  background-color: #000;
+}
+
+.selected:hover {
+  background-color: #000;
+  color: white;
+}
+
+.my-primary {
+  background-color: #568F84;
+  border: none;
+}
+
+.my-primary:hover {
+  background-color: #79DBC9;
+}
+
+.book-app-form-container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 430px) {
+  .book-app-form-container {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=contact.css.map */

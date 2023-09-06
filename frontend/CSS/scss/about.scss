@@ -1,273 +1,183 @@
 @import 'main';
 @import 'about-variables';
-//#hero {
-//    position: relative;
-//    width: 100%;
-//    height: 60vh;
-//    &::before {
-//        content: "";
-//        position: absolute;
-//        top: 0;
-//        left: 0;
-//        width: 100%;
-//        height: 100%;
-//        background-image: url('../../images/about-banner.jpg');
-//        background-color: rgba(0, 0, 0, 0.6);
-//        background-blend-mode: darken;
-//        background-size: cover;
-//        background-position: center center;
-//        background-repeat: no-repeat;
-//        background-attachment: fixed;
-//        z-index: -1;
-//    }
-//}
-//
-//.wrapper {
-//    position: relative;
-//    z-index: 1;
-//    color: $primary-text;
-//    text-align: left;
-//    top: 50%;
-//    left: 10%;
-//    transform: translateY(-50%);
-//    h2 {
-//        font-size: 3em;
-//    }
-//}
-//
-/////
-//#backstory-field {
-//    display: flex;
-//    justify-content: flex-start;
-//    align-items: center;
-//    height: 100vh;
-//    flex-direction: column
-//}
-//
-//.backstory-section {
-//    display: flex;
-//    justify-content: flex-start;
-//    align-items: center;
-//    padding: 20px;
-//    width: 50%;
-//    flex-direction: row;
-//    margin-top: 10rem;
-//}
-//
-//.backstory-text {
-//    width: 60%;
-//    padding-right: 100px;
-//    margin: 0 auto;
-//    font-weight: bold;
-//    color: $seconday-text;
-//    line-height: 1.5;
-//    text-align: justify;
-//    letter-spacing: 0.05em;
-//    p {
-//        font-size: 1.3em;
-//    }
-//    h3 {
-//        font-size: 2.5em;
-//        text-align: right;
-//    }
-//}
-//
-//.backstory-image {
-//    width: 40%;
-//    margin: 0 auto;
-//}
-//
-/////
-//#featured {
-//    display: flex;
-//    flex-direction: column;
-//    justify-content: center;
-//    align-items: center;
-//    padding: 20px;
-//    width: 80%;
-//    margin: 0 auto;
-//    // Add more styles as needed
-//}
-//
-//.team-title {
-//    text-align: center;
-//    font-size: 4em;
-//    margin-bottom: 1em;
-//    color: $seconday-text;
-//}
-//
-//.card {
-//    border-radius: 1em;
-//    overflow: hidden;
-//    position: relative;
-//    color: $primary-text;
-//    h3 {
-//        margin-top: 10%;
-//        margin-bottom: 1vh;
-//        text-align: center;
-//        font-size: 3em;
-//        font-weight: bold;
-//        line-height: 1.25;
-//        transition: 0.75s;
-//    }
-//    p {
-//        margin-left: 1vw;
-//        width: 90%;
-//        text-align: center;
-//        font-size: 1em;
-//        line-height: 1.5;
-//        opacity: 0;
-//        transition: 0.75s;
-//    }
-//    img {
-//        height: 100%;
-//        transition: transform 1.5s, filter 1s;
-//    }
-//}
-//
-//.card-text {
-//    position: absolute;
-//    top: 0;
-//    transition: 0.7s;
-//}
-//
-//.card:hover img {
-//    transform: scale(1.25);
-//    filter: brightness(0.5) blur(0.2em) contrast(95%) saturate(50%);
-//}
-//
-//.card:hover h3 {
-//    margin-top: 20%;
-//    font-size: 2.5em;
-//}
-//
-//.card:hover p {
-//    opacity: 1;
-//}
 
-
-h1 {
-    color: $primary;
-}
-
-main {
-    width: 100%;
-}
-
-.hero-section {
-    width: 100%;
-    height: 500px;
-    background-color: rgba(0, 0, 0, 0.174);
-    background-image: url("../../images/tea.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-	background-attachment: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.hero-title > h1 {
-    font-size: 84px;
-    font-family: "Merienda", cursive;
-    color: white;
-    font-weight: 900;
-    text-transform: uppercase;
-}
-
-.content1-section {
-    width: 100%;
-    height: 600px;
-    display: flex;
-    justify-content: space-between;
-    padding: 50px 15%;
-
-	
-
-	.carousel-inner {
-		img {
-			border-radius: 30px;
-		}
-	}
-}
-
-.content1-section > article {
-    height: 100%;
-    width: 40%;
-    padding: 20px;
-    border-radius: 14px;
-
-	p {
-		text-align: justify;
-	}
-}
-
-.content1-section > .image {
-    background-image: url("../../images/services-side-image.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
+/*
 h2 {
-		text-align: center;
-		color: $accent;
-		font-size: 48px;
-		text-decoration: $primary underline;
-		padding-bottom: 1rem;
+    padding-top: 100px;
+    text-align: center;
+    font-size: 2em;
 }
 
-.card-holder {
+#history {
+    width: 60%;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    padding: 50px 15%;
-    width: 100%;
-    height: 600px;
-    margin-top: 100px;
 }
 
-.flavour-card {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 25%;
-    background-color: $primary;
-    padding: 25px;
-    border-radius: 14px;
-    -webkit-box-shadow: 10px 10px 27px 0px rgba(120, 120, 120, 0.72);
-    -moz-box-shadow: 10px 10px 27px 0px rgba(120, 120, 120, 0.72);
-    box-shadow: 10px 10px 27px 0px rgba(120, 120, 120, 0.72);
-    color: #585858;
-    transition-duration: 0.5s;
+.history-text {
+    max-width: 40%; 
 }
 
-.flavour-card:hover {
-    -webkit-box-shadow: 25px 25px 60px 0px rgba(120, 120, 120, 0.65);
-    -moz-box-shadow: 25px 25px 60px 0px rgba(120, 120, 120, 0.65);
-    box-shadow: 25px 25px 60px 0px rgba(120, 120, 120, 0.65);
-}
 
-.flavour-card > img {
+#crl-1 {
     position: absolute;
-    top: -140px;
-    right: 30px;
-    z-index: -9999;
+    z-index: -2;
+    //right: 220px;
+    //top: 145px;
+    right: 50px;
+    top: 20px;
+    width: 370px;
+    height: 370px;
+    border-radius: 200px;
+    background-color: #d1d800;
+    border: 10px solid white;
 }
 
-.card-content > h3 {
+#crl-2 {
+    position: absolute;
+    z-index: -1;
+    //right: 160px;
+    //top: 340px;
+    right: 20px;
+    top: 170px;
+    width: 250px;
+    height: 250px;
+    border-radius: 175px;
+    background-color: #54980f;
+    border: 10px solid white
+}
+
+#team {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 40px 0;
+}
+
+.team-text {
+    max-width: 40%;
+}
+
+.bubbles{
+    position: relative;
+    min-width: 40%;
+    min-height: 300px !important;
+
+}
+
+#crl-3 {
+    position: absolute;
+    z-index: -2;
+    left: 30px;
+    bottom: 0px;
+    width: 370px;
+    height: 370px;
+    border-radius: 200px;
+    background-color: #d1d800;
+    border: 10px solid white;
+}
+
+#crl-4 {
+    position: absolute;
+    z-index: -1;
+    left: -40px;
+    bottom: -40px;
+    width: 250px;
+    height: 250px;
+    border-radius: 175px;
+    background-color: #54980f;
+    border: 10px solid white
+}
+
+@media screen and (max-width: 430px) {
+    #history, #team{
+        flex-direction: column !important;
+    }
+}
+
+*/
+
+.bbl1{
+    width: 370px;
+    height: 370px;
+    border-radius: 200px;
+    background-color: #d1d800;
+    border: 10px solid white;
+}
+
+.bbl2{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border-radius: 175px;
+    background-color: #54980f;
+    border: 10px solid white;
+}
+
+//Top bubble
+.bubbles-history .bbl2{
+    top: -70px;
+    right: 10px;
+}
+
+///Bottom bubble
+.bubbles-team .bbl2{
+    top: -70px;
+    left: 10px;
+}
+
+.about-section{
+    margin-top: 40px !important;
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.bubbles-history, .bubbles-team{
+    position: relative;
+}
+
+.text-about{
+    max-width: 50%;
+}
+
+h2{
     text-align: center;
 }
 
-.flavour-card:nth-child(1) {
-    background-color: $primary;
-}
+@media screen and (max-width: 430px) {
 
-.flavour-card:nth-child(2) {
-    background-color: #efd1a5;
-}
+    .about-section{
+        flex-direction: column;
+        justify-content: center;
+        align-items: stretch;
+    }
 
-.flavour-card:nth-child(3) {
-    background-color: #c1e297;
-}
+    .text-about{
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 75px;
+    }
+
+    .flex-reverse{
+        flex-direction: column-reverse;
+    }
+
+    .bbl1{
+        width: 300px;
+        height: 300px;
+        border-radius: 150px;
+    }
+
+    
+    .bbl2{
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+    }
+
+}   
