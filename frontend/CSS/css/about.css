@@ -11909,75 +11909,105 @@ footer .container button {
   border: none;
 }
 
-h2, .h2 {
-  padding-top: 100px;
-  text-align: center;
-  font-size: 2em;
+/*
+h2 {
+    padding-top: 100px;
+    text-align: center;
+    font-size: 2em;
 }
 
 #history {
-  width: 60%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 .history-text {
-  max-width: 40%;
+    max-width: 40%; 
 }
 
-.bubbles-1 {
-  position: relative;
-  max-width: 40%;
-}
 
 #crl-1 {
-  position: absolute;
-  z-index: -2;
-  right: 50px;
-  top: 20px;
-  width: 370px;
-  height: 370px;
-  border-radius: 200px;
-  background-color: #d1d800;
-  border: 10px solid white;
+    position: absolute;
+    z-index: -2;
+    //right: 220px;
+    //top: 145px;
+    right: 50px;
+    top: 20px;
+    width: 370px;
+    height: 370px;
+    border-radius: 200px;
+    background-color: #d1d800;
+    border: 10px solid white;
 }
 
 #crl-2 {
-  position: absolute;
-  z-index: -1;
-  right: 20px;
-  top: 170px;
-  width: 250px;
-  height: 250px;
-  border-radius: 175px;
-  background-color: #54980f;
-  border: 10px solid white;
+    position: absolute;
+    z-index: -1;
+    //right: 160px;
+    //top: 340px;
+    right: 20px;
+    top: 170px;
+    width: 250px;
+    height: 250px;
+    border-radius: 175px;
+    background-color: #54980f;
+    border: 10px solid white
 }
 
 #team {
-  width: 60%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  position: relative;
-  padding: 40px 0;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 40px 0;
 }
 
 .team-text {
-  max-width: 40%;
+    max-width: 40%;
 }
 
-.bubbles-2 {
-  position: relative;
-  max-width: 40%;
+.bubbles{
+    position: relative;
+    min-width: 40%;
+    min-height: 300px !important;
+
 }
 
 #crl-3 {
-  position: absolute;
-  z-index: -2;
-  left: 30px;
-  bottom: 60px;
+    position: absolute;
+    z-index: -2;
+    left: 30px;
+    bottom: 0px;
+    width: 370px;
+    height: 370px;
+    border-radius: 200px;
+    background-color: #d1d800;
+    border: 10px solid white;
+}
+
+#crl-4 {
+    position: absolute;
+    z-index: -1;
+    left: -40px;
+    bottom: -40px;
+    width: 250px;
+    height: 250px;
+    border-radius: 175px;
+    background-color: #54980f;
+    border: 10px solid white
+}
+
+@media screen and (max-width: 430px) {
+    #history, #team{
+        flex-direction: column !important;
+    }
+}
+
+*/
+.bbl1 {
   width: 370px;
   height: 370px;
   border-radius: 200px;
@@ -11985,16 +12015,69 @@ h2, .h2 {
   border: 10px solid white;
 }
 
-#crl-4 {
+.bbl2 {
   position: absolute;
-  z-index: -1;
-  left: -40px;
-  bottom: 20px;
   width: 250px;
   height: 250px;
   border-radius: 175px;
   background-color: #54980f;
   border: 10px solid white;
+}
+
+.bubbles-history .bbl2 {
+  top: -70px;
+  right: 10px;
+}
+
+.bubbles-team .bbl2 {
+  top: -70px;
+  left: 10px;
+}
+
+.about-section {
+  margin-top: 40px !important;
+  display: flex;
+  width: 60%;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+
+.bubbles-history, .bubbles-team {
+  position: relative;
+}
+
+.text-about {
+  max-width: 50%;
+}
+
+h2, .h2 {
+  text-align: center;
+}
+
+@media screen and (max-width: 430px) {
+  .about-section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+  }
+  .text-about {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 75px;
+  }
+  .flex-reverse {
+    flex-direction: column-reverse;
+  }
+  .bbl1 {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+  }
+  .bbl2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+  }
 }
 
 /*# sourceMappingURL=about.css.map */
