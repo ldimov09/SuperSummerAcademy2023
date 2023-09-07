@@ -45,7 +45,7 @@ h2 {
     background-position: center center;
     background-size: contain;
     background-repeat: no-repeat;
-    border: 10px solid white;
+    //border: 10px solid white;
 }
 
 #crl-2 {
@@ -60,7 +60,7 @@ h2 {
     background-position: center center;
     background-size: contain;
     background-repeat: no-repeat;
-    border: 10px solid white
+    //border: 10px solid white
 }
 
 #crl-3 {
@@ -75,7 +75,7 @@ h2 {
     background-position: center center;
     background-size: contain;
     background-repeat: no-repeat;
-    border: 10px solid white
+    //border: 10px solid white
 }
 
 #crl-4 {
@@ -90,7 +90,7 @@ h2 {
     background-position: center center;
     background-size: contain;
     background-repeat: no-repeat;
-    border: 10px solid white
+    //border: 10px solid white
 }
 
 #tastes {
@@ -115,7 +115,7 @@ h2 {
 }
 
 .taste {
-    background: $secondary-light;
+    background: #ecd2ee;
     height: 120px;
     width: 82%;
     display: flex;
@@ -138,6 +138,10 @@ h2 {
     display: inline-block;
     //margin-left: 70px;
     border-radius: 60px;
+}
+
+.accent{
+    color: #D88EDB;
 }
 
 @each $image in $images {

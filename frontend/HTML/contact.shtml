@@ -28,11 +28,13 @@
             </div>
             <div class="mb-3">
                 <label for="countInp" class="form-label">Брой посетители</label>
-                <input class="form-control" type="number" name="guest_count" id="countInp">
+                <input class="form-control" min="1" max="8" type="number" name="guest_count" id="countInp">
             </div>
-
+            <div class="alert alert-danger" role="alert" id="alert">
+                Всички полета са задължителни
+            </div>              
         </div>
-        <div><button id="submit-button" class="btn btn-primary my-primary">Резервирай час!</button></div>
+        <div><a id="submit-button" class="my-primary">Резервирай час!</a></div>
     </div>
 </section>
 <!-- Bootstrap JS for navbar-->

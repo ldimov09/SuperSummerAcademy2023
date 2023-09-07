@@ -10,17 +10,14 @@
 	<title>Document</title>
 </head>
 <!--#include file="./navbar.shtml"-->
-<h2 style="margin-top: 80px;">История на Проекта</h2>
+<h2 class="history-heading">История на Проекта</h2>
 <section class="about-section">
 	<div class="text-about">
+		<h4>Ние от <span class="accent">съвсем скоро започнахме</span> да работим по създаването на работилницата за сладоледи</h4>
 		<p>
-			Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-			industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-			scrambled it to make a type specimen book. It has
-			survived not only five centuries, but also the leap into electronic typesetting, remaining essentially
-			unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
-			passages, and more recently with desktop
-			publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is
+			Решихме да направим нещо по-различно от другите фирми. Ние сме единствената в България сладоледена
+			работилница.Която ви предлага сами да си направите сладоледа с домашни продукти.С хората който обичате е
+			супер да прекарате време заедно при нас.Имаме намаления за групи.
 		</p>
 	</div>
 
@@ -37,7 +34,8 @@
 	</div>
 
 	<div class="text-about">
-		<h4>Екъпът ни се състои от 8 човека, много идейни и държащи на <span class="accent">щастието на клиентите си</span></h4>
+		<h4>Екъпът ни се състои от 8 човека, много идейни и държащи на <span class="accent">щастието на клиентите
+				си</span></h4>
 		<p>
 			Запознахме се на лятна академия и измислихме уникалната идея за тази работилница за сладоледи и очакваме с
 			нетърпение да споделим с теб уникалните рецепти и да създадем прекрасни спомени заедно с теб. Толкова сме

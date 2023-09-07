@@ -4,10 +4,13 @@ const submitBtn = document.getElementById('submit-button');
 const countInp = document.getElementById('countInp');
 const emailInp = document.getElementById('emailInp');
 const nameInp = document.getElementById('nameInp');
+const myAlert = document.getElementById('alert');
 dateInput.addEventListener('change', fetchAllFreeHours);
 submitBtn.addEventListener('click', createAppointement);
 let selectedOption = null;
 let response = null;
+
+myAlert.style.display = 'none';
 
 function loadAvailableHours(r) {
     response = r;
@@ -45,22 +48,57 @@ function fetchAllFreeHours(event) {
 async function createAppointement() {
 
     let data;
-    if (selectedOption, emailInp.value, nameInp.value, countInp.value) {
-        data = {
-            email: emailInp.value,
-            name: nameInp.value,
-            guest_count: Number(countInp.value),
-            date_time: `${dateInput.value} ${document.getElementById(selectedOption).textContent}:00`
-        }
+    
+    if (!(emailInp.value && nameInp.value && countInp.value)) {
+        showError('Всички полета са задължителни.');
+        return;
+    }
+    if (Number(countInp.value.trim()) >= 9 || Number(countInp.value.trim()) <= 0 || Number(countInp.value.trim()) % 1 != 0) {
+        showError('Максималният брой посетители е 8. Моля въведете валиден брой посетители.');
+        return;
+    }
+
+    if (nameInp.value.length > 50){
+        showError('Максималната дължна на Име и Фалимия е 50 символа. Ако не са достатъчни запишете само Име или Фамилия.');
+        return;
+    }
+
+    if(!/^[\w\.]+@([\w-]+\.)+[A-Za-z]{2,4}$/gm.test(emailInp.value)){
+        showError('Моля въведете валиден имейл.');
+        return;
+    }
+
+    if (!(selectedOption && dateInput.value)) {
+        showError('Моля изберете дата и час.');
+        return;
+    }
+
+    const date = dateInput.value;
+    const varDate = new Date(date); 
+    const today = new Date();
+
+    today.setHours(23,59,59,99);
+    
+    if (varDate <= today) {
+        showError('Моля изберете валидна дата.');
+        return;
+    }
+
+    myAlert.style.display = 'none';
+    data = {
+        email: emailInp.value.trim(),
+        name: nameInp.value.trim(),
+        guest_count: Number(countInp.value.trim()),
+        date_time: `${dateInput.value.trim()} ${document.getElementById(selectedOption).textContent.trim()}:00`
     }
 
 
-    var myHeaders = new Headers();
+    const myHeaders = new Headers();
     myHeaders.append("Content-Type", "application/json");
 
-    var raw = JSON.stringify(data);
+    const raw = JSON.stringify(data);
 
-    var requestOptions = {
+    const requestOptions = {
         method: 'POST',
         headers: myHeaders,
         body: raw,
@@ -70,9 +108,20 @@ async function createAppointement() {
     fetch("https://saturday.skostadinov.com/schedule", requestOptions)
         .then(response => response.text())
         .then(result => {
-            alertUser();
+            if (JSON.parse(result).message) {
+                alertUser();
+            }
         })
-        .catch(error => console.log('error', error));
+        .catch(error => {
+            showError(error);
+        });
+
+}
+
+function showError(err) {
+    myAlert.style.display = 'block';
+    console.log(err);
+    myAlert.textContent = err;
 }
 
 function alertUser() {

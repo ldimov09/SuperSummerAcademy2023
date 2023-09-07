@@ -14,7 +14,7 @@ body {
     align-items: center;
     background-image: url("../../images/index-hero-banner-clouds.png");
     background-color: #fff;
-    background-size: cover;
+    background-size: contain;
 }
 
 section.hero-wrapper > section {
@@ -87,18 +87,20 @@ h1 {
 }
 
 .hero-go-to-action {
-    display: inline-block;
-    padding: 10px 15px;
-    background-color: #d51744;
-    color: #fff;
-    border-radius: 7px;
+    display: inline-flex;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 56px;
+    background: var(--Secondary, #568f84);
+    color: white;
     text-decoration: none;
-    cursor: pointer;
 }
 
 //Section 2
 .section-2 {
-    padding: 1rem;
+    //padding: 1rem;
     margin: 2rem 0;
     text-align: center;
     h1 {
@@ -213,7 +215,7 @@ h1 {
 
 // Section 4
 .section-4 {
-    margin: 5rem 0;
+    margin-top: 5rem;
     background-image: url("../../images/services-hero2.jpg");
     backdrop-filter: brightnes(0.2);
     background-size: cover;
@@ -261,6 +263,21 @@ h1 {
             color: white;
             text-decoration: none;
         }
+    }
+}
+
+.section-5{
+    h2{
+        text-align: center;
+        padding: 80px 0;
+    }
+
+    .quiz-container{
+        width: 80%;
+        padding: 50px;
+        margin: 0 auto;
+        background-color: rgb(255, 255, 218);
+        border-radius: 21px;
     }
 }
 

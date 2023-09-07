@@ -53,7 +53,7 @@
 		</article>
 	</section>
 	<section class="section-3">
-		<h1>Приготви своя сладолед</h1>
+		<h2>Приготви своя сладолед</h2>
 		<section class="section3-prepare">
 			<img id="line" src="../images/Line 1.png" width="1000px">
 			<div class="section3-content">
@@ -86,6 +86,8 @@
 			<p>Направи уникален сладолед и прекрасни спомени</p>
 			<a href="./services.shtml">Научи повече</a>
 		</div>
+	</section>
+
 	</section>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

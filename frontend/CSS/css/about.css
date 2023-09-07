@@ -5,6 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Leckerli+One&family=Roboto:wght@300&display=swap");
 :root,
 [data-bs-theme=light] {
   --bs-blue: #0d6efd;
@@ -11851,6 +11852,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+* {
+  font-family: "Roboto", sans-serif;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -11870,17 +11875,15 @@ body a {
 nav {
   width: 100%;
   display: flex;
-}
-nav .container-fluid, nav .container-sm, nav .container-md, nav .container-lg, nav .container-xl, nav .container-xxl {
   background-color: white;
-  -webkit-box-shadow: 0px 5px 13px 0px rgba(0, 0, 0, 0.26);
-  -moz-box-shadow: 0px 5px 13px 0px rgba(0, 0, 0, 0.26);
-  box-shadow: 0px 5px 13px 0px rgba(0, 0, 0, 0.26);
+  -webkit-box-shadow: 0px 5px 13px 0px rgba(0, 0, 0, 0.16);
+  -moz-box-shadow: 0px 5px 13px 0px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 5px 13px 0px rgba(0, 0, 0, 0.16);
 }
-nav a {
+nav .navbar-brand {
   color: #8D4F8F !important;
-  font-family: "Merienda", cursive;
-  font-size: 18px;
+  font-family: "Leckerli One", cursive;
+  font-size: 24px;
 }
 nav a:hover {
   color: #D88EDB !important;
@@ -11905,16 +11908,14 @@ footer .container {
   color: white;
   width: 100% !important;
 }
-footer .container h3, footer .container .h3,
-footer .container h2,
-footer .container .h2 {
+footer .container p {
   color: #8D4F8F;
-  font-family: "Merienda", cursive;
+  font-family: "Leckerli One", cursive;
   font-size: 20px;
   text-align: center;
 }
-footer .container button {
-  background-color: #D88EDB;
+footer .container a {
+  background-color: #d6d8da;
   border: none;
 }
 
@@ -12038,8 +12039,9 @@ h2 {
 }
 
 .bubbles-history .bbl2 {
-  top: -70px;
-  right: 10px;
+  top: -80px;
+  right: -70px;
+  border: none;
 }
 
 .bubbles-team .bbl2 {
@@ -12120,6 +12122,10 @@ h2, .h2 {
     height: 200px;
     border-radius: 100px;
   }
+}
+.history-heading {
+  margin-top: 120px;
+  margin-bottom: 40px;
 }
 
 /*# sourceMappingURL=about.css.map */

@@ -1,13 +1,8 @@
 @import "main";
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
 
 .contact-page-container {
-    margin-top: 10px;
-    padding: 80px;
+    margin-top: 90px;
+    padding-bottom: 20px;
 }
 
 .book-app-form-container {
@@ -52,12 +47,19 @@ footer {
 }
 
 .my-primary {
-    background-color: $secondary;
-    border: none;
+    display: inline-flex;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 56px;
+    background: var(--Secondary, #568f84);
+    color: white;
+    text-decoration: none;
 }
 
 .my-primary:hover {
-    background-color: $secondary-light;
+    transform: scale(1.02);
 }
 
 .book-app-form-container {

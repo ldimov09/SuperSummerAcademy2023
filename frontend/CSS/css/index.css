@@ -5,6 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Leckerli+One&family=Roboto:wght@300&display=swap");
 :root,
 [data-bs-theme=light] {
   --bs-blue: #0d6efd;
@@ -11851,6 +11852,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+* {
+  font-family: "Roboto", sans-serif;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -11870,17 +11875,15 @@ body a {
 nav {
   width: 100%;
   display: flex;
-}
-nav .container-fluid, nav .container-sm, nav .container-md, nav .container-lg, nav .container-xl, nav .container-xxl {
   background-color: white;
-  -webkit-box-shadow: 0px 5px 13px 0px rgba(0, 0, 0, 0.26);
-  -moz-box-shadow: 0px 5px 13px 0px rgba(0, 0, 0, 0.26);
-  box-shadow: 0px 5px 13px 0px rgba(0, 0, 0, 0.26);
+  -webkit-box-shadow: 0px 5px 13px 0px rgba(0, 0, 0, 0.16);
+  -moz-box-shadow: 0px 5px 13px 0px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 5px 13px 0px rgba(0, 0, 0, 0.16);
 }
-nav a {
+nav .navbar-brand {
   color: #8D4F8F !important;
-  font-family: "Merienda", cursive;
-  font-size: 18px;
+  font-family: "Leckerli One", cursive;
+  font-size: 24px;
 }
 nav a:hover {
   color: #D88EDB !important;
@@ -11905,16 +11908,14 @@ footer .container {
   color: white;
   width: 100% !important;
 }
-footer .container h3, footer .container .h3,
-footer .container h2,
-footer .container .h2 {
+footer .container p {
   color: #8D4F8F;
-  font-family: "Merienda", cursive;
+  font-family: "Leckerli One", cursive;
   font-size: 20px;
   text-align: center;
 }
-footer .container button {
-  background-color: #D88EDB;
+footer .container a {
+  background-color: #d6d8da;
   border: none;
 }
 
@@ -11931,7 +11932,7 @@ body {
   align-items: center;
   background-image: url("../../images/index-hero-banner-clouds.png");
   background-color: #fff;
-  background-size: cover;
+  background-size: contain;
 }
 
 section.hero-wrapper > section {
@@ -12004,17 +12005,18 @@ h1, .h1 {
 }
 
 .hero-go-to-action {
-  display: inline-block;
-  padding: 10px 15px;
-  background-color: #d51744;
-  color: #fff;
-  border-radius: 7px;
+  display: inline-flex;
+  padding: 16px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 56px;
+  background: var(--Secondary, #568f84);
+  color: white;
   text-decoration: none;
-  cursor: pointer;
 }
 
 .section-2 {
-  padding: 1rem;
   margin: 2rem 0;
   text-align: center;
 }
@@ -12119,7 +12121,7 @@ h1, .h1 {
 }
 
 .section-4 {
-  margin: 5rem 0;
+  margin-top: 5rem;
   background-image: url("../../images/services-hero2.jpg");
   backdrop-filter: brightnes(0.2);
   background-size: cover;
@@ -12168,6 +12170,18 @@ h1, .h1 {
   background: var(--Secondary, #568f84);
   color: white;
   text-decoration: none;
+}
+
+.section-5 h2, .section-5 .h2 {
+  text-align: center;
+  padding: 80px 0;
+}
+.section-5 .quiz-container {
+  width: 80%;
+  padding: 50px;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 218);
+  border-radius: 21px;
 }
 
 @media screen and (max-width: 430px) {
