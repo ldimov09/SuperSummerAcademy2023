@@ -350,7 +350,7 @@ h1 {
     background-color: white;
     border-radius: 5px;
     padding: 10px;
-    box-shadow: 0 0 10px 2px;
+    //box-shadow: 0 0 10px 2px;
 }
 
 .btn-grid {
@@ -389,6 +389,7 @@ h1 {
     font-weight: bold;
     padding: 10px 20px;
     border-radius: 42px;
+    background-color: $primary;
 }
 
 .controls {
