@@ -1,16 +1,16 @@
 <footer>
-	<div class="container justify-content-center py-4">
-		<p>Follow our Ice Cream World</p>
-		<a target="_blank" href="https://www.instagram.com/__icecreamm__2/?igshid=MzRlODBiNWFlZA%3D%3D">
-			<i class="fa-brands fa-instagram"></i>
-		</a>
-		<a target="_blank" href="https://www.facebook.com/people/_ice-cream-world-Devin_/61550731572611/?sk=photos">
-			<i class="fa-brands fa-facebook-f"></i>
-		</a>
-		<a target="_blank" href="https://www.tiktok.com/@xx_vasilena_xx">
-			<i class="fa-brands fa-tiktok"></i>
-		</a>
-	</div>
+    <div class="container justify-content-center py-4">
+        <p>Follow our Ice Cream World</p>
+        <a target="_blank" href="https://www.instagram.com/__icecreamm__2/?igshid=MzRlODBiNWFlZA%3D%3D">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a target="_blank" href="https://www.facebook.com/people/_ice-cream-world-Devin_/61550731572611/?sk=photos">
+            <i class="fa-brands fa-facebook-f"></i>
+        </a>
+        <a target="_blank" href="https://www.tiktok.com/@xx_vasilena_xx">
+            <i class="fa-brands fa-tiktok"></i>
+        </a>
+    </div>
 </footer>
 <script src="https://kit.fontawesome.com/a1312d148e.js" crossorigin="anonymous"></script>
 </body>
