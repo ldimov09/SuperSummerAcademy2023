@@ -12018,6 +12018,10 @@ h2 {
 }
 
 */
+body {
+  overflow-x: hidden;
+}
+
 .accent {
   color: #D88EDB;
 }

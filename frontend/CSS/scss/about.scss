@@ -101,6 +101,10 @@ h2 {
 
 */
 
+body {
+	overflow-x: hidden;
+}
+
 .accent{
     color: $primary;
 }
