@@ -52,8 +52,9 @@ h1 {
     border-radius: 125px;
     border: 10px solid #fff;
     background-color: #fab9d1;
-    background-image: url("../../images/index-icecream-top-author.jpg");
+    background-image: url("../../images/index-hero-image-2.jpg");
     background-size: cover;
+    background-position: center center;
 }
 
 #big-circle {
@@ -266,22 +267,162 @@ h1 {
     }
 }
 
-.section-5{
-    h2{
+.section-5 {
+    h2 {
         text-align: center;
-        padding: 80px 0;
+        margin-top: 80px;
+        margin-bottom: 20px;
     }
 
-    .quiz-container{
+    .answer {
         width: 80%;
-        padding: 50px;
+        padding: 10px;
+        border-radius: 20px;
+        border: 1px solid $primary-dark;
         margin: 0 auto;
-        background-color: rgb(255, 255, 218);
-        border-radius: 21px;
+        margin-bottom: 10px;
+    }
+
+    .answers-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 }
 
+.price-heading {
+    margin-bottom: 20px;
+}
+
+.price-section {
+    padding: 50px 0;
+    width: 50%;
+    background-color: rgb(247, 247, 200);
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-radius: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.bgn-text {
+    font-size: 56px;
+    color: $primary-dark;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 12px;
+}
+
+.price-section-text {
+    font-size: 28px;
+    color: black;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+}
+
+.big-price {
+    font-size: 72px;
+    color: $primary;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+//Quiz----------------------------------------------
+
+#question {
+    font-size: 24px;
+}
+
+#question-container {
+    width: 60%;
+    padding: 50px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 218);
+    border-radius: 21px;
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 800px;
+    max-width: 80%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    //box-shadow: 0 0 10px 2px;
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.my-btn {
+    background-color: #ccc;
+    border: 1px solid hsl(var(--hue), 100%, 30%);
+    background-color: hsl(var(--hue), 100%, 50%);
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    outline: none;
+}
+
+.btn:hover {
+    border-color: black;
+}
+
+.btn.correct {
+    background-color: rgb(116, 229, 116);
+    color: black;
+}
+
+.btn.wrong {
+    background-color: rgb(239, 135, 135);
+}
+
+.start-btn,
+.next-btn {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 42px;
+    background-color: $primary;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide {
+    display: none;
+}
+
+// /Quiz
 @media screen and (max-width: 430px) {
+
+    .price-section{
+        width: 90%;
+        flex-direction: column;
+    }
+
+    #question-container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .answer {
+        font-size: 12px;
+    }
+
+    .section-5 > h2 {
+        padding-bottom: 20px;
+    }
+
     .circle {
         display: none;
     }

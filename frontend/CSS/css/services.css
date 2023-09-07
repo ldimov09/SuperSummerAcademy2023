@@ -11903,18 +11903,18 @@ nav.navbar .navbar-nav {
 footer {
   background-color: #d6d8da;
 }
-footer .container {
+footer .footer-container {
   text-align: center;
   color: white;
   width: 100% !important;
 }
-footer .container p {
+footer .footer-container p {
   color: #8D4F8F;
   font-family: "Leckerli One", cursive;
   font-size: 20px;
   text-align: center;
 }
-footer .container a {
+footer .footer-container a {
   background-color: #d6d8da;
   border: none;
 }
