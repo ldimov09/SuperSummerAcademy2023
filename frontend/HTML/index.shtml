@@ -2,56 +2,56 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!--<link rel="shortcut icon" href="images/panda.svg">-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link rel="shortcut icon" href="images/panda.svg">-->
 
-	<link rel="stylesheet" href="../CSS/css/index.css">
-	<title>Document</title>
+    <link rel="stylesheet" href="../CSS/css/index.css">
+    <title>Document</title>
 </head>
 <!--#include file="./navbar.shtml"-->
 <section class="hero-wrapper">
-	<section class="accent-row">
-		<div class="text-action-buttons-container">
-			<h1>Ice Cream World</h1>
-			<h4>Това не е просто работилница <br>за сладолед, това е работилница <br> за преживявания</h4>
-			<div class="hero-action-btns">
-				<a class="hero-go-to-action" href="./contact.shtml">Запази час</a>
-				<a class="hero-go-to-action" href="./about.shtml">Научете повече</a>
-			</div>
-		</div>
-		<div></div>
-		<div id="sml-circle" class="circle show-mobile"></div>
-		<div id="big-circle" class="circle"></div>
-		<div id="mid-circle" class="circle"></div>
-	</section>
+    <section class="accent-row">
+        <div class="text-action-buttons-container">
+            <h1>Ice Cream World</h1>
+            <h4>Това не е просто работилница <br>за сладолед, това е работилница <br> за преживявания</h4>
+            <div class="hero-action-btns">
+                <a class="hero-go-to-action" href="./contact.shtml">Запази час</a>
+                <a class="hero-go-to-action" href="./about.shtml">Научете повече</a>
+            </div>
+        </div>
+        <div></div>
+        <div id="sml-circle" class="circle show-mobile"></div>
+        <div id="big-circle" class="circle"></div>
+        <div id="mid-circle" class="circle"></div>
+    </section>
 </section>
 <section class="section-2">
-	<h1>Натурални продукти</h1>
-	<section class="card-holder">
-		<article class="flavour-card">
-			<img src="../images/raspberries.png" width="130" height="130">
-			<div class="card-content">
-				<h3>Плодове</h3>
-				<p>Домашно отгледани подове БЕЗ гмо, без допълнително наторяване отгледани</p>
-			</div>
-		</article>
-		<article class="flavour-card">
-			<img src="../images/milk.png" width="130" height="130">
-			<div class="card-content">
-				<h3>Прясно мляко</h3>
-				<p>Разнообразен избор от различни видове домашни пресни млека</p>
-			</div>
-		</article>
-		<article class="flavour-card" style="margin-bottom: 0;">
-			<img src="../images/smetana.png" width="130" height="130">
-			<div class="card-content">
-				<h3>Сметана</h3>
-				<p>Сметана, направена от домашно прясно мляко</p>
-			</div>
-		</article>
-	</section>
+    <h1>Натурални продукти</h1>
+    <section class="card-holder">
+        <article class="flavour-card">
+            <img src="../images/raspberries.png" width="130" height="130">
+            <div class="card-content">
+                <h3>Плодове</h3>
+                <p>Домашно отгледани плодове БЕЗ гмо, отгледани без допълнително наторяване</p>
+            </div>
+        </article>
+        <article class="flavour-card">
+            <img src="../images/milk.png" width="130" height="130">
+            <div class="card-content">
+                <h3>Прясно мляко</h3>
+                <p>Разнообразен избор от различни видове домашни пресни млека</p>
+            </div>
+        </article>
+        <article class="flavour-card" style="margin-bottom: 0;">
+            <img src="../images/smetana.png" width="130" height="130">
+            <div class="card-content">
+                <h3>Сметана</h3>
+                <p>Сметана, направена от домашно прясно мляко</p>
+            </div>
+        </article>
+    </section>
 	<h2 class="price-heading">Цени</h2>
 	<section class="price-section">
 		<div>
@@ -60,67 +60,42 @@
 		</div>
 		<span class="price-section-text">На човек за половин час</span>
 	</section>
-	<section class="section-3">
-		<h2>Приготви своя сладолед</h2>
-		<section class="section3-prepare">
-			<img id="line" src="../images/Line 1.png" width="1000px">
-			<div class="section3-content">
-				<div id="elipse1">
-					<img src="../images/Ellipse 1.png" class="dot-image">
-					<p class="section3-number">01</p>
-					<p class="section3-title">Избери вкус</p>
-					<p class="section3-content">Избери с какъв вкус искаш да е сладоледа,
-						който ще правиш и вземи съставките, необходими за него</p>
-				</div>
-				<div id="elipse2" class="process-item">
-					<img src="../images/Path 11.png" class="dot-image">
-					<p class="section3-number">02</p>
-					<p class="section3-title">Смеси състваките</p>
-					<p class="section3-content">Наслади се на процеса на приготвяне на
-						сладоледа и създай нови спомени с любимите си хора</p>
-				</div>
-				<div id="elipse3" class="process-item">
-					<img src="../images/Ellipse 1.png" class="dot-image">
-					<p class="section3-number">03</p>
-					<p class="section3-title">Наслади се</p>
-					<p class="section3-content">След новосъздадените прекрасни спомени се
-						наслади и на прекрасния сладолед, който сте направили</p>
-				</div>
-			</div>
-		</section>
-	</section>
-	<section class="section-4">
-		<div class="section4-content">
-			<p>Направи уникален сладолед и прекрасни спомени</p>
-			<a href="./services.shtml">Услуги</a>
-		</div>
-	</section>
-	<section class="section-5">
-		<h2>Отговори на въпросите</h2>
-		<div id="question-container" class="hide">
-			<div id="question">Question</div>
-			<div id="answer-buttons" class="btn-grid">
-			  <button class="my-btn">Answer 1</button>
-			  <button class="my-btn">Answer 2</button>
-			  <button class="my-btn">Answer 3</button>
-			  <button class="my-btn">Answer 4</button>
-			</div>
-		  </div>
-		  <div class="controls">
-			<button id="start-btn" class="start-btn btn btn-primary">Започни играта!</button>
-			<button id="next-btn" class="next-btn btn btn-primary hide">Следващ въпрос</button>
-		  </div>
-	</section>
+    <section class="section-3">
+        <h2>Приготви своя сладолед</h2>
+        <section class="section3-prepare">
+            <img id="line" src="../images/Line 1.png" width="1000px">
+            <div class="section3-content">
+                <div id="elipse1">
+                    <img src="../images/Ellipse 1.png" class="dot-image">
+                    <p class="section3-number">01</p>
+                    <p class="section3-title">Избери вкус</p>
+                    <p class="section3-content">Избери с какъв вкус искаш да е сладоледа, който ще правиш и вземи съставките, необходими за него</p>
+                </div>
+                <div id="elipse2" class="process-item">
+                    <img src="../images/Path 11.png" class="dot-image">
+                    <p class="section3-number">02</p>
+                    <p class="section3-title">Смеси състваките</p>
+                    <p class="section3-content">Наслади се на процеса на приготвяне на сладоледа и създай нови спомени с любимите си хора</p>
+                </div>
+                <div id="elipse3" class="process-item">
+                    <img src="../images/Ellipse 1.png" class="dot-image">
+                    <p class="section3-number">03</p>
+                    <p class="section3-title">Наслади се</p>
+                    <p class="section3-content">След новосъздадените прекрасни спомени се наслади и на прекрасния сладолед, който сте направили</p>
+                </div>
+            </div>
+        </section>
+    </section>
+    <section class="section-4">
+        <div class="section4-content">
+            <p>Направи уникален сладолед и прекрасни спомени</p>
+            <a href="./services.shtml">Научи повече</a>
+        </div>
+    </section>
+
 </section>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-	integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-	crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
-	integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-	crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
-	integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-	crossorigin="anonymous"></script>
-<script src="../Scripts/index.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </section>
 <!--#include file="./footer.shtml"-->

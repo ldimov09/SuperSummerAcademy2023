@@ -2,47 +2,43 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!--<link rel="shortcut icon" href="images/panda.svg">-->
-	<link rel="stylesheet" href="../CSS/css/about.css">
-	<title>Document</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link rel="shortcut icon" href="images/panda.svg">-->
+    <link rel="stylesheet" href="../CSS/css/about.css">
+    <title>Document</title>
 </head>
 <!--#include file="./navbar.shtml"-->
 <h2 class="history-heading">История на Проекта</h2>
 <section class="about-section">
-	<div class="text-about">
-		<h4>Ние от <span class="accent">съвсем скоро започнахме</span> да работим по създаването на работилницата за сладоледи</h4>
-		<p>
-			Решихме да направим нещо по-различно от другите фирми. Ние сме единствената в България сладоледена
-			работилница.Която ви предлага сами да си направите сладоледа с домашни продукти.С хората който обичате е
-			супер да прекарате време заедно при нас.Имаме намаления за групи.
-		</p>
-	</div>
+    <div class="text-about">
+        <h4>Ние от <span class="accent">съвсем скоро започнахме</span> да работим по създаването на работилницата за сладоледи</h4>
+        <p>
+            Решихме да направим нещо по-различно от другите фирми. Ние сме единствената в България сладоледена работилница.Която ви предлага сами да си направите сладоледа с домашни продукти.С хората който обичате е супер да прекарате време заедно при нас.Имаме намаления
+            за групи.
+        </p>
+    </div>
 
-	<div class="bubbles-history">
-		<div class="bubble bbl1"></div>
-		<div class="bubble bbl2"></div>
-	</div>
+    <div class="bubbles-history">
+        <div class="bubble bbl1"></div>
+        <div class="bubble bbl2"></div>
+    </div>
 </section>
 <h2>Нашият Екип</h2>
 <section class="about-section flex-reverse">
-	<div class="bubbles-team">
-		<div class="bubble bbl1"></div>
-		<div class="bubble bbl2"></div>
-	</div>
+    <div class="bubbles-team">
+        <div class="bubble bbl1"></div>
+        <div class="bubble bbl2"></div>
+    </div>
 
-	<div class="text-about">
-		<h4>Екъпът ни се състои от 8 човека, много идейни и държащи на <span class="accent">щастието на клиентите
-				си</span></h4>
-		<p>
-			Запознахме се на лятна академия и измислихме уникалната идея за тази работилница за сладоледи и очакваме с
-			нетърпение да споделим с теб уникалните рецепти и да създадем прекрасни спомени заедно с теб. Толкова сме
-			вдъхновени, че решиме ние самите ато съоснователи да се занимаваме с клиентите си, за да може да споделим
-			постигнатото.
-		</p>
-	</div>
+    <div class="text-about">
+        <h4>Екъпът ни се състои от 8 човека, много идейни и държащи на <span class="accent">щастието на клиентите си</span></h4>
+        <p>
+            Запознахме се на лятна академия и измислихме уникалната идея за тази работилница за сладолед и очакваме с нетърпение да споделим с теб уникалните рецепти и да създадем прекрасни спомени заедно с теб. Толкова сме вдъхновени, че решихме ние самите ато съоснователи
+            да се занимаваме с клиентите си, за да може да споделим постигнатото.
+        </p>
+    </div>
 
 </section>
 
@@ -82,13 +78,7 @@
 
 </section>
 -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-	integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-	crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
-	integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-	crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
-	integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-	crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <!--#include file="./footer.shtml"-->
